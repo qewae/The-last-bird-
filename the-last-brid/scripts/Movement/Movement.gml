@@ -3,9 +3,11 @@ function Movement(){
 
 if keyboard_check(ord("D")){
 	xspd = 5
+	sprite_index = spr_MainBird_right
 }
 if keyboard_check(ord("A")){
 	xspd = -5
+	sprite_index = spr_MainBird_left
 }
 
 

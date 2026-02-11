@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_worm",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_blackout",
+  "eventList":[],
   "managed":true,
-  "name":"obj_worm",
+  "name":"obj_blackout",
   "overriddenProperties":[],
   "parent":{
     "name":"WormPicking",
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_worm",
-    "path":"sprites/spr_worm/spr_worm.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

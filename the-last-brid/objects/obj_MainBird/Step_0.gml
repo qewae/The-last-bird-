@@ -14,6 +14,8 @@ Movement()
 y += yspd
 x += xspd
 
+
+
 //转场
 if trans = true
 {
@@ -36,6 +38,8 @@ if collision_rectangle(y,x,x+64,y-64, obj_Tree,false,false)
 	}
 	
 }
+
+
 
 	
 

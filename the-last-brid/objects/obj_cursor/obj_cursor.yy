@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_MainBird",
+  "%Name":"obj_cursor",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_MainBird",
+  "name":"obj_cursor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"WormPicking",
+    "path":"folders/Objects/WormPicking.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_MainBird_right",
-    "path":"sprites/spr_MainBird_right/spr_MainBird_right.yy",
+    "name":"spr_cursor",
+    "path":"sprites/spr_cursor/spr_cursor.yy",
   },
   "spriteMaskId":null,
   "visible":true,
