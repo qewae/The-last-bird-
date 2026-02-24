@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_MainBird_right",
-    "path":"sprites/spr_MainBird_right/spr_MainBird_right.yy",
+    "name":"spr_MainBird_stand",
+    "path":"sprites/spr_MainBird_stand/spr_MainBird_stand.yy",
   },
   "spriteMaskId":null,
   "visible":true,

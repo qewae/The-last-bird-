@@ -29,6 +29,15 @@ if trans = true and yspd = 0
 	fly = true
 	yspd = 0
 }
+if global.start == false
+{
+	sprite_index = spr_MainBird_stand
+}
+else 
+{
+	sprite_indext = spr_MainBird_right
+}
+
 
 
 

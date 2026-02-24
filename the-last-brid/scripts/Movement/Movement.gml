@@ -1,6 +1,7 @@
 function Movement(){
 
-
+if room != WormPicking{
+	if global.start == true {
 if keyboard_check(ord("D")){
 	xspd = 5
 	sprite_index = spr_MainBird_right
@@ -19,6 +20,8 @@ if keyboard_check(ord("S")){
 }
 if keyboard_check(ord("W")) == false and keyboard_check(ord("S")) == false{
 	yspd = 0
+}
+	}
 }
 }
 

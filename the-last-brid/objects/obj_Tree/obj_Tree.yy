@@ -10,8 +10,8 @@
   "name":"obj_Tree",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"WormPicking",
+    "path":"folders/Objects/WormPicking.yy",
   },
   "parentObjectId":null,
   "persistent":false,
