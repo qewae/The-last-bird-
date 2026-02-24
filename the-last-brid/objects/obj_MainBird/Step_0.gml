@@ -1,7 +1,8 @@
 //开始起飞
-if global.start = false and keyboard_check(vk_space)
+if global.start = false and keyboard_check(vk_space) and SpaceT == true
 {
 	global.start = true
+	SpaceT = false
 	xspd = 5
 	yspd = -5
 	alarm_set(0,15)
@@ -29,18 +30,30 @@ if trans = true and yspd = 0
 	fly = true
 	yspd = 0
 }
+
 if global.start == false
 {
 	sprite_index = spr_MainBird_stand
 }
-else 
+
+if room != WormPicking{
+if xspd == 5
 {
-	sprite_indext = spr_MainBird_right
+	sprite_index = spr_MainBird_right
 }
-
-
-
-
+if xspd == -5
+{
+	sprite_index = spr_MainBird_left
+}
+if xspd == 0 
+{
+	sprite_index = spr_MainBird_stand
+}
+}
+else
+{
+	sprite_index = spr_blank
+}
 
 
 

@@ -4,3 +4,4 @@ fly = false
 trans = false
 Max_Hunger = 10
 global.Hunger = 0
+SpaceT = true
