@@ -53,6 +53,8 @@
     {"id":{"name":"WormPicking","path":"rooms/WormPicking/WormPicking.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"Movement","path":"scripts/Movement/Movement.yy",},},
+    {"id":{"name":"SetOff","path":"scripts/SetOff/SetOff.yy",},},
+    {"id":{"name":"StopMoving","path":"scripts/StopMoving/StopMoving.yy",},},
     {"id":{"name":"spr_blank","path":"sprites/spr_blank/spr_blank.yy",},},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
     {"id":{"name":"spr_Fkey","path":"sprites/spr_Fkey/spr_Fkey.yy",},},

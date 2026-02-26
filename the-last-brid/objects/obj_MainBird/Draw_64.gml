@@ -21,7 +21,7 @@ var sx = 516
 var sy = 416
 var spaceWidth = 256
 var spaceHight = 64
-if global.start = false
+if global.start = false and global.SpaceT = true
 {
 	draw_sprite_stretched(spr_SpaceBar, 0, sx, sy, spaceWidth, spaceHight)
 	draw_text(sx + spaceWidth/2, sy + spaceHight/2, "SPACE")
@@ -29,7 +29,7 @@ if global.start = false
 	
 //拿虫子
 
-if collision_rectangle(x,y,x+64,y-64, obj_Tree,false,false)
+if collision_circle(x,y,64, obj_Tree,false,false) and global.YT = true
 {
 	draw_sprite(spr_Fkey, 0, sx+100, sy)
 }
