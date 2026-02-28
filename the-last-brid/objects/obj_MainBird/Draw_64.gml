@@ -29,7 +29,7 @@ if global.start = false and global.SpaceT = true
 	
 //拿虫子
 
-if collision_circle(x,y,64, obj_Tree,false,false) and global.YT = true
+if collision_circle(x,y,64, obj_Tree1,false,false) and global.YT = true
 {
 	draw_sprite(spr_Fkey, 0, sx+100, sy)
 }

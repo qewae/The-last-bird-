@@ -25,7 +25,7 @@
     {"name":"obj_HouseTree","order":1,"path":"objects/obj_HouseTree/obj_HouseTree.yy",},
     {"name":"obj_HungerBar","order":3,"path":"objects/obj_HungerBar/obj_HungerBar.yy",},
     {"name":"obj_Manager","order":2,"path":"objects/obj_Manager/obj_Manager.yy",},
-    {"name":"obj_Tree","order":4,"path":"objects/obj_Tree/obj_Tree.yy",},
+    {"name":"obj_Tree1","order":4,"path":"objects/obj_Tree1/obj_Tree1.yy",},
     {"name":"obj_worm","order":1,"path":"objects/obj_worm/obj_worm.yy",},
     {"name":"WormPicking","order":1,"path":"rooms/WormPicking/WormPicking.yy",},
     {"name":"RoomUI","order":15,"path":"roomui/RoomUI/RoomUI.yy",},

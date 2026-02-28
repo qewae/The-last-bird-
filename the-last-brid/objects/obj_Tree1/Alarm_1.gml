@@ -1,0 +1,1 @@
+available = variable_global_get(treeNum)

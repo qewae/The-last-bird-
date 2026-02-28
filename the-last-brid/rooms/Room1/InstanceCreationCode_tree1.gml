@@ -1,1 +1,2 @@
-Tree = tree2
+
+treeNum = "t1avl"

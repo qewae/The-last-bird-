@@ -46,7 +46,7 @@
     {"id":{"name":"obj_HungerBar","path":"objects/obj_HungerBar/obj_HungerBar.yy",},},
     {"id":{"name":"obj_MainBird","path":"objects/obj_MainBird/obj_MainBird.yy",},},
     {"id":{"name":"obj_Manager","path":"objects/obj_Manager/obj_Manager.yy",},},
-    {"id":{"name":"obj_Tree","path":"objects/obj_Tree/obj_Tree.yy",},},
+    {"id":{"name":"obj_Tree1","path":"objects/obj_Tree1/obj_Tree1.yy",},},
     {"id":{"name":"obj_worm","path":"objects/obj_worm/obj_worm.yy",},},
     {"id":{"name":"obj_WormEatManager","path":"objects/obj_WormEatManager/obj_WormEatManager.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

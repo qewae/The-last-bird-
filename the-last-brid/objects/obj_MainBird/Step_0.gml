@@ -63,7 +63,12 @@ else
 
 
 
-
+if collision_circle(x,y,64, obj_Tree1,false,false) and global.YT == true and keyboard_check(ord("F"))
+{
+	global.YT = false
+		
+}
+	
 
 	
 
