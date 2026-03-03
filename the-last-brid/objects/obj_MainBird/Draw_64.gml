@@ -13,7 +13,7 @@ var boxlength = boxWidth* (global.Hunger/Max_Hunger)
 
 draw_sprite_stretched(spr_hunger, 0, dx, dy, boxWidth, boxHight)
 draw_sprite_stretched_ext(spr_hunger, 0, dx, dy, boxlength, boxHight, c_red, 0.6)
-draw_text(dy + boxWidth/2, dy + boxHight/2, "Hunger")
+draw_text(dx + boxWidth/2, dy + boxHight/2, "Hunger")
 
 //空格起飞提示
 
@@ -29,7 +29,18 @@ if global.start = false and global.SpaceT = true
 	
 //拿虫子
 
-if collision_circle(x,y,64, obj_Tree1,false,false) and global.YT = true
+if collision_circle(x,y,32, obj_Tree,false,false) and global.YT = true
 {
 	draw_sprite(spr_Fkey, 0, sx+100, sy)
 }
+
+//时间条
+draw_text(dx + 64, dy + 128, "Time:")
+draw_text(dx + 128, dy + 128, global.time)
+
+draw_set_font(MiddleScreen)
+if global.time == 6
+{
+draw_text(sx + 100,sy - 100, "Need To Rest!")
+}
+draw_set_font(UIFont)
