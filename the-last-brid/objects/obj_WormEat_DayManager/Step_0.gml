@@ -10,4 +10,5 @@ if global.WormEaten = global.WormMax
 if global.time >= 6
 {
 	global.DEnd = true
+	
 }

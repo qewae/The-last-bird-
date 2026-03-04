@@ -69,7 +69,10 @@ if collision_circle(x,y,64, obj_Tree,false,false) and global.YT == true and keyb
 		
 }
 	
-
+if collision_circle(x,y,64, obj_HouseTree,false,false) and global.YT == true and keyboard_check(ord("F"))
+{
+	global.day += 1
+}
 	
 
 
