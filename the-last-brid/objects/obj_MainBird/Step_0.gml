@@ -40,7 +40,11 @@ if global.start == false
 	sprite_index = spr_MainBird_stand
 }
 
-if room != WormPicking{
+if room != Room1
+{
+	sprite_index = spr_blank
+	sprite_index = spr_blank
+}
 	
 	
 if xspd == 5
@@ -69,9 +73,14 @@ if collision_circle(x,y,64, obj_Tree,false,false) and global.YT == true and keyb
 		
 }
 	
-if collision_circle(x,y,64, obj_HouseTree,false,false) and global.YT == true and keyboard_check(ord("F"))
+if collision_circle(x,y,64, obj_HouseTree,false,false) and global.DEnd == true and keyboard_check(ord("F"))
 {
 	global.day += 1
+	global.time = 1
+	StopMoving()
+	global.SY = false
+	global.transition = true
+	global.Hunger = 0
 }
 	
 

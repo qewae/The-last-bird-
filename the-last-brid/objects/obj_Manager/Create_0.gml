@@ -6,3 +6,4 @@ global.mouse = false
 //新手教程（只显示第一遍）
 global.SpaceT = true
 global.YT = true
+global.ST = true
