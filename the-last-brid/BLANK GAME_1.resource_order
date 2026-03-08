@@ -53,6 +53,7 @@
     {"name":"spr_DayTransition6","order":4,"path":"sprites/spr_DayTransition6/spr_DayTransition6.yy",},
     {"name":"spr_DayTransition7","order":5,"path":"sprites/spr_DayTransition7/spr_DayTransition7.yy",},
     {"name":"spr_Fkey","order":3,"path":"sprites/spr_Fkey/spr_Fkey.yy",},
+    {"name":"spr_HouseTree_1","order":13,"path":"sprites/spr_HouseTree_1/spr_HouseTree_1.yy",},
     {"name":"spr_HouseTree","order":6,"path":"sprites/spr_HouseTree/spr_HouseTree.yy",},
     {"name":"spr_hunger","order":3,"path":"sprites/spr_hunger/spr_hunger.yy",},
     {"name":"spr_MainBird_left","order":4,"path":"sprites/spr_MainBird_left/spr_MainBird_left.yy",},
@@ -61,5 +62,6 @@
     {"name":"spr_Start","order":1,"path":"sprites/spr_Start/spr_Start.yy",},
     {"name":"spr_Tree","order":1,"path":"sprites/spr_Tree/spr_Tree.yy",},
     {"name":"spr_WormPicking","order":2,"path":"sprites/spr_WormPicking/spr_WormPicking.yy",},
+    {"name":"spr","order":14,"path":"sprites/spr/spr.yy",},
   ],
 }

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_HouseTree",
-    "path":"sprites/spr_HouseTree/spr_HouseTree.yy",
+    "name":"spr",
+    "path":"sprites/spr/spr.yy",
   },
   "spriteMaskId":null,
   "visible":true,
