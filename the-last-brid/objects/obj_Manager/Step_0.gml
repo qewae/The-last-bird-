@@ -1,9 +1,8 @@
-
-window_set_cursor(cr_none)
-
-	
-
-if room = WormPicking
+if room = Menu
+{
+	global.mouse = true
+}
+else if room = WormPicking
 {
 	global.mouse = true
 }
@@ -11,3 +10,4 @@ else
 {
 	global.mouse = false
 }
+window_set_cursor(cr_none)

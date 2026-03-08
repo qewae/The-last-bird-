@@ -1,15 +1,14 @@
-function Closing(alpha, targetRoom, sprite){
+function Closing(condition, targetRoom, sprite, Alpha){
 	
-if global.transition == true
+if condition == true
 {
-	alpha += 0.05
+	Alpha += 0.01
 }
-if alpha == 1
+if Alpha == 1
 {
-	alpha = 0
+	Alpha = 0
 	room_goto(targetRoom)
-	
 }
-draw_sprite_ext(sprite, 0, x, y, 1, 1, 0, c_white, alpha)
+draw_sprite_ext(sprite, 0, x, y, 1, 1, 0, c_white, Alpha)
 	
 }

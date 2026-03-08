@@ -40,11 +40,9 @@ if global.start == false
 	sprite_index = spr_MainBird_stand
 }
 
-if room != Room1
+if room = Forest
 {
-	sprite_index = spr_blank
-	sprite_index = spr_blank
-}
+	
 	
 	
 if xspd == 5
@@ -66,7 +64,6 @@ else
 }
 
 
-
 if collision_circle(x,y,64, obj_Tree,false,false) and global.YT == true and keyboard_check(ord("F"))
 {
 	global.YT = false
@@ -81,8 +78,13 @@ if collision_circle(x,y,64, obj_HouseTree,false,false) and global.DEnd == true a
 	global.SY = false
 	global.transition = true
 	global.Hunger = 0
+	global.DEnd = false
 }
-	
+
+if global.Hunger > Max_Hunger
+{
+	global.Hunger = Max_Hunger
+}
 
 
 //吃虫子

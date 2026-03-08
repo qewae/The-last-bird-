@@ -9,9 +9,8 @@ else
 {
 	sprite_index = spr_MainBird_right
 }
+
 if instance_exists(global.tree){
-	
-	
 	x = global.tree.x + 32
     y = global.tree.y + 32
 }

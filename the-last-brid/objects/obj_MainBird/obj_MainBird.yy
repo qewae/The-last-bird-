@@ -13,8 +13,8 @@
   "name":"obj_MainBird",
   "overriddenProperties":[],
   "parent":{
-    "name":"MainBird",
-    "path":"folders/Objects/MainBird.yy",
+    "name":"WormPicking",
+    "path":"folders/Objects/WormPicking.yy",
   },
   "parentObjectId":null,
   "persistent":true,

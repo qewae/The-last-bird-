@@ -1,6 +1,6 @@
+global.tree = noone
 global.WormEaten = 0
 global.WormMax = 4
-global.tree = noone
 
 
 //天数机制

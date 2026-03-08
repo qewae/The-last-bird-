@@ -18,7 +18,7 @@ draw_text(dx + boxWidth/2, dy + boxHight/2, "Hunger")
 //空格起飞提示
 
 var sx = 516
-var sy = 416
+var sy = 616
 var spaceWidth = 256
 var spaceHight = 64
 if global.start = false and global.SpaceT = true
