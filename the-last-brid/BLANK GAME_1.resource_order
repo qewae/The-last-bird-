@@ -38,6 +38,7 @@
     {"name":"obj_worm","order":1,"path":"objects/obj_worm/obj_worm.yy",},
     {"name":"DayTransition","order":2,"path":"rooms/DayTransition/DayTransition.yy",},
     {"name":"Menu","order":3,"path":"rooms/Menu/Menu.yy",},
+    {"name":"WormFeeding","order":4,"path":"rooms/WormFeeding/WormFeeding.yy",},
     {"name":"WormPicking","order":1,"path":"rooms/WormPicking/WormPicking.yy",},
     {"name":"RoomUI","order":15,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"Closing","order":3,"path":"scripts/Closing/Closing.yy",},

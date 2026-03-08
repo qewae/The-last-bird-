@@ -5,7 +5,7 @@
 		if collision_rectangle(x-20,y+20,x+84,y-176, obj_MainBird,false,false) and keyboard_check(ord("F"))
 		{
 	global.tree = Tree
-	StopMoving()
+	StopMoving(obj_MainBird.fly)
 	alarm_set(0,10)
 	variable_global_set(treeNum,false)
 	

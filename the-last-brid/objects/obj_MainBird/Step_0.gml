@@ -11,10 +11,10 @@ if global.start = false and keyboard_check(vk_space)
 	alarm_set(0,15)
 }
 //起飞后才能动
-//if fly = true
-//{
+if fly = true
+{
 Movement()
-//}
+}
 y += yspd
 x += xspd
 
@@ -74,7 +74,7 @@ if collision_circle(x,y,64, obj_HouseTree,false,false) and global.DEnd == true a
 {
 	global.day += 1
 	global.time = 1
-	StopMoving()
+	StopMoving(fly)
 	global.SY = false
 	global.transition = true
 	global.Hunger = 0

@@ -1,7 +1,8 @@
+//吃虫子
 global.tree = noone
 global.WormEaten = 0
-global.WormMax = 4
-
+global.WormMax = 0
+global.WormSpawn = 4
 
 //天数机制
 global.time = 5

@@ -63,6 +63,7 @@
     {"id":{"name":"DayTransition","path":"rooms/DayTransition/DayTransition.yy",},},
     {"id":{"name":"Forest","path":"rooms/Forest/Forest.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"id":{"name":"WormFeeding","path":"rooms/WormFeeding/WormFeeding.yy",},},
     {"id":{"name":"WormPicking","path":"rooms/WormPicking/WormPicking.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"Closing","path":"scripts/Closing/Closing.yy",},},
@@ -103,6 +104,7 @@
     {"roomId":{"name":"WormPicking","path":"rooms/WormPicking/WormPicking.yy",},},
     {"roomId":{"name":"DayTransition","path":"rooms/DayTransition/DayTransition.yy",},},
     {"roomId":{"name":"Forest","path":"rooms/Forest/Forest.yy",},},
+    {"roomId":{"name":"WormFeeding","path":"rooms/WormFeeding/WormFeeding.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
