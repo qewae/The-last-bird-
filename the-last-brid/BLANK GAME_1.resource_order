@@ -5,6 +5,7 @@
     {"name":"Fonts","order":6,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":12,"path":"folders/Notes.yy",},
     {"name":"Objects","order":8,"path":"folders/Objects.yy",},
+    {"name":"BackGround","order":6,"path":"folders/Objects/BackGround.yy",},
     {"name":"MainBird","order":2,"path":"folders/Objects/MainBird.yy",},
     {"name":"Menu","order":4,"path":"folders/Objects/Menu.yy",},
     {"name":"Transition","order":5,"path":"folders/Objects/Transition.yy",},
@@ -29,6 +30,7 @@
   "ResourceOrderSettings":[
     {"name":"MiddleScreen","order":1,"path":"fonts/MiddleScreen/MiddleScreen.yy",},
     {"name":"obj_blackout","order":2,"path":"objects/obj_blackout/obj_blackout.yy",},
+    {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_cursor","order":2,"path":"objects/obj_cursor/obj_cursor.yy",},
     {"name":"obj_DayTransition","order":1,"path":"objects/obj_DayTransition/obj_DayTransition.yy",},
     {"name":"obj_HouseTree","order":1,"path":"objects/obj_HouseTree/obj_HouseTree.yy",},
@@ -56,6 +58,7 @@
     {"name":"spr_DayTransition7","order":5,"path":"sprites/spr_DayTransition7/spr_DayTransition7.yy",},
     {"name":"spr_Fkey","order":3,"path":"sprites/spr_Fkey/spr_Fkey.yy",},
     {"name":"spr_ForestBack","order":1,"path":"sprites/spr_ForestBack/spr_ForestBack.yy",},
+    {"name":"spr_ForestSky","order":2,"path":"sprites/spr_ForestSky/spr_ForestSky.yy",},
     {"name":"spr_HouseTree_1","order":13,"path":"sprites/spr_HouseTree_1/spr_HouseTree_1.yy",},
     {"name":"spr_HouseTree","order":6,"path":"sprites/spr_HouseTree/spr_HouseTree.yy",},
     {"name":"spr_hunger","order":3,"path":"sprites/spr_hunger/spr_hunger.yy",},
