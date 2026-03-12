@@ -4,6 +4,9 @@ global.WormEaten = 0
 global.WormMax = 0
 global.WormSpawn = 4
 
+//虫子储存机制
+global.WormCount = 0
+
 //天数机制
 global.time = 5
 global.DEnd = false

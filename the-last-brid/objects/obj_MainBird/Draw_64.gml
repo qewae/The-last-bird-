@@ -1,5 +1,5 @@
-var dy = 16
 var dx = 16
+var dy = 16
 var boxWidth = 512
 var boxHight = 64
 
@@ -15,8 +15,26 @@ draw_sprite_stretched(spr_hunger, 0, dx, dy, boxWidth, boxHight)
 draw_sprite_stretched_ext(spr_hunger, 0, dx, dy, boxlength, boxHight, c_red, 0.6)
 draw_text(dx + boxWidth/2, dy + boxHight/2, "Hunger")
 
-//空格起飞提示
+//幼虫饥饿条
+var bx = 16
+var by = dy + 56
+var Babyboxlength = boxWidth* (global.BBird1/global.BBirdMaxHunger)
 
+draw_sprite_stretched(spr_hunger, 0, dx, dy, boxWidth, boxHight)
+draw_sprite_stretched_ext(spr_hunger, 0, dx, dy, Babyboxlength, boxHight, c_aqua, 0.6)
+draw_text(bx + boxWidth/2, by + boxHight/2, "Baby1")
+
+//虫子数量显示
+var wx = 1366 - dy
+var wy = 768 - dy
+draw_sprite(spr_worm, 0, wx-200, wy)
+draw_text(wx-100,wy,"X")
+draw_text(wx-50,wy,global.WormCount)
+
+
+
+
+//空格起飞提示
 var sx = 516
 var sy = 616
 var spaceWidth = 256
