@@ -1,4 +1,4 @@
-if global.transition == true
+if global.transition_Day == true
 {
 	global.tree = obj_HouseTree
 }

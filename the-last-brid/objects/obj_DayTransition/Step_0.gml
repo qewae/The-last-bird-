@@ -18,7 +18,7 @@ if CloseTrans == true
 {
 	if alpha == 0 and CloseTrans == true
 	{
-		global.transition = false
+		global.transition_Day = false
 		room_goto(target_room)
 	}
 	else

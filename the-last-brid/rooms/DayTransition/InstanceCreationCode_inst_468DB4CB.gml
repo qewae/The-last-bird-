@@ -1,2 +1,2 @@
 target_room = Forest
-condition = global.transition
+condition = global.transition_Day

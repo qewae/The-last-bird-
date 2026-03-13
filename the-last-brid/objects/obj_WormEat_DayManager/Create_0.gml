@@ -11,8 +11,8 @@ global.WormCount = 0
 global.time = 5
 global.DEnd = false
 global.day = 1
-global.transition = false
-
+global.transition_Feed = false
+global.transition_Day = false
 //给每个树单独计算是否能交互（availability)
 global.t1avl = true
 global.t2avl = true

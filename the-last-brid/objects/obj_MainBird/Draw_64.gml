@@ -16,20 +16,21 @@ draw_sprite_stretched_ext(spr_hunger, 0, dx, dy, boxlength, boxHight, c_red, 0.6
 draw_text(dx + boxWidth/2, dy + boxHight/2, "Hunger")
 
 //幼虫饥饿条
+if room = WormFeeding{
 var bx = 16
-var by = dy + 56
+var by = dy + 100
 var Babyboxlength = boxWidth* (global.BBird1/global.BBirdMaxHunger)
 
-draw_sprite_stretched(spr_hunger, 0, dx, dy, boxWidth, boxHight)
-draw_sprite_stretched_ext(spr_hunger, 0, dx, dy, Babyboxlength, boxHight, c_aqua, 0.6)
+draw_sprite_stretched(spr_hunger, 0, bx, by, boxWidth, boxHight)
+draw_sprite_stretched_ext(spr_hunger, 0, bx, by, Babyboxlength, boxHight, c_aqua, 0.6)
 draw_text(bx + boxWidth/2, by + boxHight/2, "Baby1")
-
+}
 //虫子数量显示
-var wx = 1366 - dy
-var wy = 768 - dy
+var wx = 1366 + 16
+var wy = 0 + dy
 draw_sprite(spr_worm, 0, wx-200, wy)
-draw_text(wx-100,wy,"X")
-draw_text(wx-50,wy,global.WormCount)
+draw_text(wx-120,wy+30,"X")
+draw_text(wx-90,wy+30,global.WormCount)
 
 
 

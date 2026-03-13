@@ -2,7 +2,7 @@ if room = Menu
 {
 	global.mouse = true
 }
-else if room = WormPicking
+else if room = WormPicking or room = WormFeeding
 {
 	global.mouse = true
 }

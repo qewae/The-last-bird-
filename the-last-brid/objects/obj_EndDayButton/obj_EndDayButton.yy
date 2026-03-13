@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_BabyBird",
+  "%Name":"obj_EndDayButton",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_BabyBird",
+  "name":"obj_EndDayButton",
   "overriddenProperties":[],
   "parent":{
     "name":"WormFeeding",
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_BabyBird",
-    "path":"sprites/spr_BabyBird/spr_BabyBird.yy",
+    "name":"spr_EndDayButton",
+    "path":"sprites/spr_EndDayButton/spr_EndDayButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,

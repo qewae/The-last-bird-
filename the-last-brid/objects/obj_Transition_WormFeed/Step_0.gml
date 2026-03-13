@@ -1,7 +1,7 @@
 
 
 
-if global.transition_Day == true
+if global.transition_Feed == true
 {
 	alpha += 0.01
 }

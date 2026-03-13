@@ -1,7 +1,10 @@
 //吃虫子
-if collision_rectangle(x,y,x+64,y+64,obj_cursor,false,false) and mouse_check_button(mb_left)
+if collision_rectangle(x,y,x+256,y+256,obj_cursor,false,false) and mouse_check_button(mb_left)
 {
-	global.Hunger += 1
+	if global.WormCount > 0 and CD == false {
+	global.WormCount -= 1
 	global.BBird1 += 1
-	instance_destroy()
+	CD = true
+	alarm_set(0,10)
+	}
 }
