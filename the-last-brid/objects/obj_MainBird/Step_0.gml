@@ -77,8 +77,10 @@ if collision_circle(x,y,64, obj_HouseTree,false,false) and global.DEnd == true a
 	StopMoving(fly)
 	global.SY = false
 	global.transition_Day = true
-	global.Hunger = 0
 	global.DEnd = false
+	global.start = false
+	StopMoving(global.start)
+	AllTavlTrue()
 }
 
 if global.Hunger > Max_Hunger

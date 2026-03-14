@@ -1,9 +1,9 @@
 //吃虫子
 global.tree = noone
 global.WormEaten = 0
-global.WormMax = 0
-global.WormSpawn = 4
-
+global.WormMax = 5
+global.WormSpawn = 5
+global.WormSpawnVar = 4
 //虫子储存机制
 global.WormCount = 0
 

@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_TransitionScreen",
   "bboxMode":0,
-  "bbox_bottom":999,
+  "bbox_bottom":1499,
   "bbox_left":0,
-  "bbox_right":4999,
+  "bbox_right":14999,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":1000,
+  "height":1500,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"a33f9b6b-cfd3-4240-b7e6-418005a4601c","blendMode":0,"displayName":"default","isLocked":false,"name":"a33f9b6b-cfd3-4240-b7e6-418005a4601c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":5000,
+  "width":15000,
 }
