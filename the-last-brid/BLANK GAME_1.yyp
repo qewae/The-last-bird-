@@ -94,6 +94,7 @@
     {"id":{"name":"spr_EndDayButton","path":"sprites/spr_EndDayButton/spr_EndDayButton.yy",},},
     {"id":{"name":"spr_Fkey","path":"sprites/spr_Fkey/spr_Fkey.yy",},},
     {"id":{"name":"spr_ForestBack","path":"sprites/spr_ForestBack/spr_ForestBack.yy",},},
+    {"id":{"name":"spr_ForestMid","path":"sprites/spr_ForestMid/spr_ForestMid.yy",},},
     {"id":{"name":"spr_ForestSky","path":"sprites/spr_ForestSky/spr_ForestSky.yy",},},
     {"id":{"name":"spr_HouseTree_1","path":"sprites/spr_HouseTree_1/spr_HouseTree_1.yy",},},
     {"id":{"name":"spr_HouseTree","path":"sprites/spr_HouseTree/spr_HouseTree.yy",},},
