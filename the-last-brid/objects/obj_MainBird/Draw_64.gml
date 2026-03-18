@@ -45,6 +45,7 @@ var spaceHight = 64
 if global.start = false and global.SpaceT = true
 {
 	draw_sprite_stretched(spr_SpaceBar, 0, sx, sy, spaceWidth, spaceHight)
+	draw_sprite(spr_FlyTutorial,0,sx-412,sy-130)
 	draw_text(sx + spaceWidth/2, sy + spaceHight/2, "SPACE")
 }
 	
@@ -69,5 +70,6 @@ draw_set_font(MiddleScreen)
 if global.time == 6
 {
 draw_text(sx + 100,sy - 100, "Need To Rest!")
+draw_text(sx + 100,sy - 180, "（Go Back To Your Nest To Rest)")
 }
 draw_set_font(UIFont)

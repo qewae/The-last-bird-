@@ -6,7 +6,7 @@
 		{
 	global.tree = Tree
 	StopMoving(obj_MainBird.fly)
-	alarm_set(0,10)
+	alarm_set(0,5)
 	variable_global_set(treeNum,false)
 	
 		}
