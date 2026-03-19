@@ -11,6 +11,6 @@ else
 }
 
 if instance_exists(global.tree){
-	x = global.tree.x + 32
-    y = global.tree.y + 32
+	x = global.tree.x + 400 
+    y = global.tree.y + 400
 }

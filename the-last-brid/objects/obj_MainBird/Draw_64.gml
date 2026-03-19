@@ -51,7 +51,7 @@ if global.start = false and global.SpaceT = true
 	
 //拿虫子
 
-if collision_circle(x,y,32, obj_Tree,false,false) and global.YT = true
+if collision_circle(x,y,32, obj_Tree,false,false)
 {
 	draw_sprite(spr_Fkey, 0, sx+100, sy)
 }
@@ -69,7 +69,10 @@ draw_text(dx + 128, dy + 128, global.time)
 draw_set_font(MiddleScreen)
 if global.time == 6
 {
-draw_text(sx + 100,sy - 100, "Need To Rest!")
-draw_text(sx + 100,sy - 180, "（Go Back To Your Nest To Rest)")
+draw_text(sx + 100,sy - 200, "Need To Rest!")
+draw_set_colour(c_white)
+draw_set_font(UIFont)
+draw_text(sx + 100,sy - 150, "(Go Back To Your Nest To Rest)")
+draw_set_colour(c_white)
 }
 draw_set_font(UIFont)

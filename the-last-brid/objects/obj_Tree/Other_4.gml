@@ -1,2 +1,2 @@
 
-alarm_set(1,10)
+alarm_set(1,1)
