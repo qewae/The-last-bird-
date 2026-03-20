@@ -31,7 +31,7 @@
   "origin":0,
   "parent":{
     "name":"WormFeeding",
-    "path":"folders/Sprites/Background/WormFeeding.yy",
+    "path":"folders/Sprites/WormFeeding.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
