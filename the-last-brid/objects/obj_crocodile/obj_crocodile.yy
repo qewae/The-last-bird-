@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_worm",
+  "%Name":"obj_crocodile",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_worm",
+  "name":"obj_crocodile",
   "overriddenProperties":[],
   "parent":{
-    "name":"WormPicking",
-    "path":"folders/Objects/WormPicking.yy",
+    "name":"AI",
+    "path":"folders/Objects/AI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Worm1",
-    "path":"sprites/spr_Worm1/spr_Worm1.yy",
+    "name":"spr_crocodile_left",
+    "path":"sprites/spr_crocodile_left/spr_crocodile_left.yy",
   },
   "spriteMaskId":null,
   "visible":true,
