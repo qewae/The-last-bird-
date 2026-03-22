@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_HouseTree",
-  "eventList":[],
+  "%Name":"obj_nest",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_HouseTree",
+  "name":"obj_nest",
   "overriddenProperties":[],
   "parent":{
     "name":"MainBird",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_houseTree",
-    "path":"sprites/spr_houseTree/spr_houseTree.yy",
+    "name":"spr_nest",
+    "path":"sprites/spr_nest/spr_nest.yy",
   },
   "spriteMaskId":null,
   "visible":true,

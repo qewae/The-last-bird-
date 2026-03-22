@@ -6,8 +6,8 @@ if global.start = false and keyboard_check(vk_space)
 		global.SpaceT = false	
 	}
 	
-	xspd = 5
-	yspd = -5
+	xspd = 7.5
+	yspd = -7.5
 	alarm_set(0,15)
 }
 //起飞后才能动
@@ -70,7 +70,7 @@ if collision_circle(x,y,64, obj_Tree,false,false) and global.YT == true and keyb
 		
 }
 	
-if collision_circle(x,y,64, obj_HouseTree,false,false) and global.DEnd == true and keyboard_check(ord("F"))
+if collision_circle(x,y,64, obj_nest,false,false) and global.DEnd == true and keyboard_check(ord("F"))
 {
 	global.day += 1
 	global.time = 1

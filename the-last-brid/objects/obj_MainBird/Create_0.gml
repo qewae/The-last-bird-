@@ -4,6 +4,6 @@ fly = false
 trans = false
 Max_Hunger = 16
 global.Hunger = 0
-depth = -200
+ 
 
 

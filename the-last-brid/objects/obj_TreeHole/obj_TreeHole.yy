@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_HouseTree",
+  "%Name":"obj_TreeHole",
   "eventList":[],
   "managed":true,
-  "name":"obj_HouseTree",
+  "name":"obj_TreeHole",
   "overriddenProperties":[],
   "parent":{
-    "name":"MainBird",
-    "path":"folders/Objects/MainBird.yy",
+    "name":"WormPicking",
+    "path":"folders/Objects/WormPicking.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_houseTree",
-    "path":"sprites/spr_houseTree/spr_houseTree.yy",
+    "name":"spr_TreeHole",
+    "path":"sprites/spr_TreeHole/spr_TreeHole.yy",
   },
   "spriteMaskId":null,
   "visible":true,

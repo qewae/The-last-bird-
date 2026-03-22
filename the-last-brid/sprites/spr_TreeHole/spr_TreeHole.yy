@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_TreeHole",
   "bboxMode":0,
-  "bbox_bottom":1067,
-  "bbox_left":192,
-  "bbox_right":1022,
+  "bbox_bottom":208,
+  "bbox_left":38,
+  "bbox_right":199,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":1536,
+  "height":300,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"2f3a7e7e-55ca-4758-8893-dcce55001e83","blendMode":0,"displayName":"default","isLocked":false,"name":"2f3a7e7e-55ca-4758-8893-dcce55001e83","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1024,
+  "width":200,
 }

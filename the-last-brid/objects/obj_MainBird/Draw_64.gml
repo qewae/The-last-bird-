@@ -56,7 +56,7 @@ if collision_circle(x,y,32, obj_Tree,false,false)
 	draw_sprite(spr_Fkey, 0, sx+100, sy)
 }
 //睡觉
-if collision_circle(x,y,32, obj_HouseTree,false,false) and global.DEnd == true and global.ST = true
+if collision_circle(x,y,32, obj_nest,false,false) and global.DEnd == true and global.ST = true
 {
 	draw_sprite(spr_Fkey, 0, sx+100, sy)
 	draw_text(sx + 300, sy, "Sleep")

@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_HouseTree",
+  "%Name":"obj_CuttedTree",
   "eventList":[],
   "managed":true,
-  "name":"obj_HouseTree",
+  "name":"obj_CuttedTree",
   "overriddenProperties":[],
   "parent":{
-    "name":"MainBird",
-    "path":"folders/Objects/MainBird.yy",
+    "name":"WormPicking",
+    "path":"folders/Objects/WormPicking.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +28,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_houseTree",
-    "path":"sprites/spr_houseTree/spr_houseTree.yy",
+    "name":"spr_TreeCutted1",
+    "path":"sprites/spr_TreeCutted1/spr_TreeCutted1.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_TreeCutted1",
+    "path":"sprites/spr_TreeCutted1/spr_TreeCutted1.yy",
+  },
   "visible":true,
 }
