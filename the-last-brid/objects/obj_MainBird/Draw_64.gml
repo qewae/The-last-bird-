@@ -9,7 +9,7 @@ draw_set_valign(fa_center)
 
 
 //饥饿条
-if room = Forest or room = WormFeeding
+if room = Forest or room = WormFeeding or WormPicking
 {
 var boxlength = boxWidth* (global.Hunger/Max_Hunger)
 

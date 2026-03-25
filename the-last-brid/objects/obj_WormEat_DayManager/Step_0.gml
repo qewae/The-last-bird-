@@ -20,3 +20,12 @@ DayWormCount(4,2)
 DayWormCount(5,1)
 DayWormCount(6,irandom_range(0,1))
 
+//饥饿条判定
+if global.Hunger > global.HungerMax
+{
+	global.Hunger = global.HungerMax
+}
+if global.Hunger < 1
+{
+	room_goto(GameEnd)
+

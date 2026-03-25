@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_TreeCutted1",
-    "path":"sprites/spr_TreeCutted1/spr_TreeCutted1.yy",
+    "name":"spr_TreeCutted2",
+    "path":"sprites/spr_TreeCutted2/spr_TreeCutted2.yy",
   },
   "spriteMaskId":{
     "name":"spr_TreeCutted1",

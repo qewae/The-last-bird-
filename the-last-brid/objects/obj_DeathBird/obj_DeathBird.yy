@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_TreeHole",
+  "%Name":"obj_DeathBird",
   "eventList":[],
   "managed":true,
-  "name":"obj_TreeHole",
+  "name":"obj_DeathBird",
   "overriddenProperties":[],
   "parent":{
-    "name":"WormPicking",
-    "path":"folders/Objects/WormPicking.yy",
+    "name":"Death",
+    "path":"folders/Objects/Death.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_TreeHole",
-    "path":"sprites/spr_TreeHole/spr_TreeHole.yy",
+    "name":"spr_DeadBird",
+    "path":"sprites/spr_DeadBird/spr_DeadBird.yy",
   },
   "spriteMaskId":null,
   "visible":true,

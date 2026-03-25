@@ -1,7 +1,8 @@
 Tree = noone
-available = true
+available = noone
 treeNum = noone
 SpriteChoose = noone
-x1 = 256
-y1 = 256
+x1 = 900
+y1 = 1662
 DestroyDay = 7
+
