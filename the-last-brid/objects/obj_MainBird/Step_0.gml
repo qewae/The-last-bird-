@@ -70,7 +70,24 @@ if collision_circle(x,y,64, obj_Tree,false,false) and global.YT == true and keyb
 		
 }
 	
-if collision_circle(x,y,64, obj_nest,false,false) and global.DEnd == true and keyboard_check(ord("F"))
+if collision_circle(x,y,64, obj_nest,false,false) and keyboard_check(ord("F"))
+{
+if global.day == 1 
+{
+	if global.DEnd == true
+	{
+	global.day += 1
+	global.time = 1
+	StopMoving(fly)
+	global.SY = false
+	global.transition_Day = true
+	global.DEnd = false
+	global.start = false
+	StopMoving(global.start)
+	AllTavlTrue()
+	}
+}
+else
 {
 	global.day += 1
 	global.time = 1
@@ -83,10 +100,9 @@ if collision_circle(x,y,64, obj_nest,false,false) and global.DEnd == true and ke
 	AllTavlTrue()
 }
 
-if global.Hunger > Max_Hunger
-{
-	global.Hunger = Max_Hunger
 }
+
+
 
 
 //吃虫子

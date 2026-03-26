@@ -16,12 +16,19 @@ if alpha == 1
 }
 if CloseTrans == true
 {
-	if alpha == 0 and CloseTrans == true
+	if alpha == 0
 	{
+		//一天结算
 		global.transition_Day = false
 		global.Hunger -= 8
 		global.BBird1 -= 3
+		global.TreeExplode = false
+		AllTavlTrue()
+		//
+		if global.Hunger > 0
+		{
 		room_goto(target_room)
+		}
 	}
 	else
 	{

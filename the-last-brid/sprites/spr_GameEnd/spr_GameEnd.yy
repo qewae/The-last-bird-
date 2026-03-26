@@ -19,6 +19,8 @@
   "height":768,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"b1dd026b-93bc-4489-8d73-cf41cc6e3db6","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"b1dd026b-93bc-4489-8d73-cf41cc6e3db6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d2db2fd5-f4e6-4f64-a226-54428fa40d4d","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"d2db2fd5-f4e6-4f64-a226-54428fa40d4d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"393c1403-959e-41e7-ba02-9e7e43cbd9a7","blendMode":0,"displayName":"default","isLocked":false,"name":"393c1403-959e-41e7-ba02-9e7e43cbd9a7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_GameEnd",

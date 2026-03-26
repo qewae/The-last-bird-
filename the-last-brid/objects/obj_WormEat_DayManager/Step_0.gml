@@ -1,3 +1,4 @@
+//虫子计算
 if global.WormEaten = global.WormSpawn
 {
 	global.WormEaten = 0
@@ -7,7 +8,7 @@ if global.WormEaten = global.WormSpawn
 	obj_MainBird.sprite_index = spr_MainBird_stand
 	global.time += 1
 }
-
+//一天时间
 if global.time >= 6
 {
 	global.DEnd = true
@@ -21,11 +22,13 @@ DayWormCount(5,1)
 DayWormCount(6,irandom_range(0,1))
 
 //饥饿条判定
-if global.Hunger > global.HungerMax
+if global.Hunger > global.Max_Hunger
 {
-	global.Hunger = global.HungerMax
+	global.Hunger = global.Max_Hunger
 }
 if global.Hunger < 1
 {
+	global.Hunger = 1
 	room_goto(GameEnd)
-
+	
+}

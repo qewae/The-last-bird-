@@ -27,6 +27,7 @@
     {"name":"inst_DBCC653","path":"rooms/Forest/Forest.yy",},
     {"name":"inst_7E515000","path":"rooms/Forest/Forest.yy",},
     {"name":"inst_14CAFA8C","path":"rooms/Forest/Forest.yy",},
+    {"name":"inst_5B440D64","path":"rooms/Forest/Forest.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -58,6 +59,7 @@
       ],"layers":[],"name":"Instances_Backgrounds","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_Mid","depth":-90,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_7D4D901","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D4D901","objectId":{"name":"obj_neighbird","path":"objects/obj_neighbird/obj_neighbird.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2880.0,"y":352.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5B440D64","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B440D64","objectId":{"name":"obj_Squirrel","path":"objects/obj_Squirrel/obj_Squirrel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6816.0,"y":736.0,},
       ],"layers":[],"name":"Instances_Mid","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background_Mid","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":10,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background_Mid","properties":[
         {"name":"g_TintCol","type":1,"value":"#FFFFFFFF",},

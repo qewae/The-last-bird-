@@ -9,9 +9,9 @@ draw_set_valign(fa_center)
 
 
 //饥饿条
-if room = Forest or room = WormFeeding or WormPicking
+if room = Forest or room = WormFeeding
 {
-var boxlength = boxWidth* (global.Hunger/Max_Hunger)
+var boxlength = boxWidth* (global.Hunger/global.Max_Hunger)
 
 draw_sprite_stretched(spr_hunger, 0, dx, dy, boxWidth, boxHight)
 draw_sprite_stretched_ext(spr_hunger, 0, dx, dy, boxlength, boxHight, c_red, 0.6)
