@@ -12,8 +12,8 @@
   "name":"obj_WormEat_DayManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"WormPicking",
-    "path":"folders/Objects/WormPicking.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":true,

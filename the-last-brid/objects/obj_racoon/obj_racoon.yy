@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_racoon",
+    "path":"sprites/spr_racoon/spr_racoon.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

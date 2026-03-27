@@ -23,7 +23,7 @@
   ],
   "name":"spr_Tree1",
   "nineSlice":null,
-  "origin":0,
+  "origin":6,
   "parent":{
     "name":"Trees",
     "path":"folders/Sprites/WormPicking/Trees.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":0,
+    "yorigin":1662,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

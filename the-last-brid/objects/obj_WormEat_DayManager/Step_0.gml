@@ -16,10 +16,10 @@ if global.time >= 6
 }
 global.WormSpawnVar = global.WormMax - 1
 DayWormCount(2,4)
-DayWormCount(3,3)
-DayWormCount(4,2)
-DayWormCount(5,1)
-DayWormCount(6,irandom_range(0,1))
+DayWormCount(3,4)
+DayWormCount(4,3)
+DayWormCount(5,2)
+DayWormCount(6,1)
 
 //饥饿条判定
 if global.Hunger > global.Max_Hunger
@@ -29,6 +29,6 @@ if global.Hunger > global.Max_Hunger
 if global.Hunger < 1
 {
 	global.Hunger = 1
-	room_goto(GameEnd)
+	room_goto(GameEnd_Starve)
 	
 }

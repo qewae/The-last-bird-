@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ReversePathSprite",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ReversePathSprite",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

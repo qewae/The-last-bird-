@@ -13,7 +13,7 @@ global.WormCount = 0
 //天数机制
 global.time = 5
 global.DEnd = false
-global.day = 1
+global.day = 7
 global.TreeNum = 6
 global.transition_Feed = false
 global.transition_Day = false

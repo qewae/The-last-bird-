@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_treeFrog",
+    "path":"sprites/spr_treeFrog/spr_treeFrog.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -23,7 +23,7 @@
   ],
   "name":"spr_TreeCutted1",
   "nineSlice":null,
-  "origin":0,
+  "origin":6,
   "parent":{
     "name":"TreeCutted",
     "path":"folders/Sprites/WormPicking/TreeCutted.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":0,
+    "yorigin":1600,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
