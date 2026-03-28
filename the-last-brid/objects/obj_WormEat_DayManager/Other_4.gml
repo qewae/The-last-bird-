@@ -3,7 +3,7 @@ if room = WormPicking
 {
 	if global.day > 1
 	{
-	 global.WormSpawn = irandom_range(global.WormSpawn, global.WormSpawnVar)
+	 global.WormSpawn = irandom_range(global.WormMax, global.WormSpawnVar)
 	}
 	else
 	{
@@ -36,3 +36,4 @@ if global.day > 2
 {
 	global.TreeNum = 8 - global.day
 }
+

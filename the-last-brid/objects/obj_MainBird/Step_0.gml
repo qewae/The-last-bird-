@@ -1,6 +1,7 @@
 //开始起飞
 if global.start = false and keyboard_check(vk_space)
 {
+	audio_play_sound(snd__buttonClick, 0, false)
 	if global.SpaceT == true
 	{
 		global.SpaceT = false	
@@ -66,12 +67,14 @@ else
 
 if collision_circle(x,y,64, obj_Tree,false,false) and global.YT == true and keyboard_check(ord("F"))
 {
+	audio_play_sound(snd__buttonClick, 0, false)
 	global.YT = false
 		
 }
 	
 if collision_circle(x,y,64, obj_nest,false,false) and keyboard_check(ord("F"))
 {
+	audio_play_sound(snd__buttonClick, 0, false)
 if global.day == 1 
 {
 	if global.DEnd == true

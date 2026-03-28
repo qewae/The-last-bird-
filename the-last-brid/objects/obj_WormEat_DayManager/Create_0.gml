@@ -11,9 +11,9 @@ global.Hunger = 1
 global.WormCount = 0
 
 //天数机制
-global.time = 5
+global.time = 1
 global.DEnd = false
-global.day = 7
+global.day = 1
 global.TreeNum = 6
 global.transition_Feed = false
 global.transition_Day = false

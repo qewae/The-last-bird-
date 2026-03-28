@@ -14,12 +14,13 @@ if global.time >= 6
 	global.DEnd = true
 	
 }
-global.WormSpawnVar = global.WormMax - 1
 DayWormCount(2,4)
 DayWormCount(3,4)
 DayWormCount(4,3)
 DayWormCount(5,2)
 DayWormCount(6,1)
+global.WormSpawnVar = global.WormMax - 1
+
 
 //饥饿条判定
 if global.Hunger > global.Max_Hunger

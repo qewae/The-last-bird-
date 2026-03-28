@@ -1,6 +1,7 @@
 if collision_rectangle(x - 200,y - 128,x1,y1,obj_cursor,false,false) and start = 0{
 	scale = 1.2
 	if mouse_check_button(mb_left){
+	audio_play_sound(snd__buttonClick, 0, false)
 	trans = true
 	start = 1
 	scale = 0.8

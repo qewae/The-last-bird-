@@ -1,5 +1,5 @@
 function DayWormCount(AfterDay, WormSpawnAmount){
-if global.day > AfterDay + 1
+if global.day > AfterDay
 {
 	global.WormMax = WormSpawnAmount
 }

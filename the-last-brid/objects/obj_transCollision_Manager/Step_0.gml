@@ -2,5 +2,5 @@ if collision_rectangle(x,y,x1,y1,obj_MainBird, false, true) and global.TreeExplo
 {
 	global.DEnd = false
 	global.FinalTrans = true
-	alarm_set(1,360)
+	alarm_set(1,800)
 }

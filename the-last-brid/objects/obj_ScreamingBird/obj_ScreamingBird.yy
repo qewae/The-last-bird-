@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_DeadBird",
-    "path":"sprites/spr_DeadBird/spr_DeadBird.yy",
+    "name":"spr_Screaming_Bird",
+    "path":"sprites/spr_Screaming_Bird/spr_Screaming_Bird.yy",
   },
   "spriteMaskId":null,
   "visible":true,
