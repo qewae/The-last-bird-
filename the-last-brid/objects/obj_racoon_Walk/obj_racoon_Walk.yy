@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_racoonWalk_Right",
-    "path":"sprites/spr_racoonWalk_Right/spr_racoonWalk_Right.yy",
+    "name":"spr_racoonWalk_Left",
+    "path":"sprites/spr_racoonWalk_Left/spr_racoonWalk_Left.yy",
   },
   "spriteMaskId":null,
   "visible":true,

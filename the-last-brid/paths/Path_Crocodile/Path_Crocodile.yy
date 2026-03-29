@@ -2,7 +2,7 @@
   "$GMPath":"",
   "%Name":"Path_Crocodile",
   "closed":false,
-  "kind":0,
+  "kind":1,
   "name":"Path_Crocodile",
   "parent":{
     "name":"Paths",
@@ -11,7 +11,10 @@
   "points":[
     {"speed":100.0,"x":1504.0,"y":992.0,},
     {"speed":100.0,"x":1632.0,"y":992.0,},
-    {"speed":100.0,"x":1856.0,"y":992.0,},
+    {"speed":100.0,"x":2208.0,"y":992.0,},
+    {"speed":100.0,"x":3136.0,"y":992.0,},
+    {"speed":100.0,"x":4480.0,"y":992.0,},
+    {"speed":100.0,"x":5248.0,"y":1152.0,},
   ],
   "precision":4,
   "resourceType":"GMPath",

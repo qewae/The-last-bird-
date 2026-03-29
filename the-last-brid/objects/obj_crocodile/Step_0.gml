@@ -1,1 +1,1 @@
-ReversePathSprite(spr_crocodile_left,spr_crocodile_right)
+ReversePathSprite(spr_racoonWalk_Left,spr_racoonWalk_Right)
