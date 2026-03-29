@@ -12,8 +12,8 @@
   "name":"obj_Transition_WormFeed",
   "overriddenProperties":[],
   "parent":{
-    "name":"WormFeeding",
-    "path":"folders/Objects/WormFeeding.yy",
+    "name":"Transition",
+    "path":"folders/Objects/Transition.yy",
   },
   "parentObjectId":null,
   "persistent":false,

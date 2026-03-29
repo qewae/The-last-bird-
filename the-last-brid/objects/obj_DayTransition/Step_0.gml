@@ -5,13 +5,13 @@ TransitionPage(5, spr_DayTransition5)
 TransitionPage(6, spr_DayTransition6)
 TransitionPage(7, spr_DayTransition7)
 
-if condition == true
+if global.transition_Day = false == true
 {
 	alpha += 0.005
 }
 if alpha == 1
 {
-	condition = false
+	global.transition_Day = false = false
 	CloseTrans = true
 }
 if CloseTrans == true

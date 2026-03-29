@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_treeFalling",
+  "%Name":"snd_squirrel_call",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":8.962902,
+  "duration":88.93243,
   "exportDir":"",
-  "name":"snd_treeFalling",
+  "name":"snd_squirrel_call",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_treeFalling.mp3",
+  "soundFile":"snd_squirrel_call.mp3",
   "volume":1.0,
 }

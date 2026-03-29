@@ -67,7 +67,6 @@ else
 
 if collision_circle(x,y,64, obj_Tree,false,false) and global.YT == true and keyboard_check(ord("F"))
 {
-	audio_play_sound(snd__buttonClick, 0, false)
 	global.YT = false
 		
 }

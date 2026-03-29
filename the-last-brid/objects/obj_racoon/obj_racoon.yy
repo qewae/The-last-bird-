@@ -9,7 +9,10 @@
     "name":"AI",
     "path":"folders/Objects/AI.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_Squirrel",
+    "path":"objects/obj_Squirrel/obj_Squirrel.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

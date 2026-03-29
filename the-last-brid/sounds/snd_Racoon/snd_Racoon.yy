@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_treeFalling",
+  "%Name":"snd_Racoon",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":8.962902,
+  "duration":13.490793,
   "exportDir":"",
-  "name":"snd_treeFalling",
+  "name":"snd_Racoon",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_treeFalling.mp3",
+  "soundFile":"snd_Racoon.mp3",
   "volume":1.0,
 }
