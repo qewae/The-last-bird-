@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_TreeFrog",
+  "%Name":"snd_WormPicking",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":0.124353744,
   "exportDir":"",
-  "name":"snd_TreeFrog",
+  "name":"snd_WormPicking",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_TreeFrog.mp3",
+  "soundFile":"snd_WormPicking.wav",
   "volume":1.0,
 }

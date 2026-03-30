@@ -41,6 +41,7 @@ if global.start == false
 	sprite_index = spr_MainBird_stand
 }
 
+//根据方向改画面
 if room = Forest
 {
 	
@@ -65,15 +66,27 @@ else
 }
 
 
-if collision_circle(x,y,64, obj_Tree,false,false) and global.YT == true and keyboard_check(ord("F"))
+if collision_circle(x,y,64, obj_Tree,false,false)
 {
-	global.YT = false
-		
+	if FkeyCD == false
+	{
+		FkeyCD = true
+		audio_play_sound(snd_WormPicking,0,false)
+		alarm_set(4,10)
+	}
+	if global.YT == true and keyboard_check(ord("F"))
+	{
+	global.YT = false	
+	}
 }
-	
 if collision_circle(x,y,64, obj_nest,false,false) and keyboard_check(ord("F"))
 {
+	if SpaceBarCD == false
+	{
+	SpaceBarCD = true
 	audio_play_sound(snd__buttonClick, 0, false)
+	alarm_set(3,15)
+	}
 if global.day == 1 
 {
 	if global.DEnd == true
@@ -106,8 +119,16 @@ else
 
 
 
-
-//吃虫子
+//声音
+if xspd !=0 
+{
+	if WingCD == false
+	{
+	WingCD = true
+	audio_play_sound(snd_WingFlap, 0, false)
+	alarm_set(2,30*2.6)
+	}
+}
 
 
 

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_TreeFrog",
+  "%Name":"snd_WingFlap",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.124353744,
+  "duration":2.6023583,
   "exportDir":"",
-  "name":"snd_TreeFrog",
+  "name":"snd_WingFlap",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_TreeFrog.mp3",
+  "soundFile":"snd_WingFlap.wav",
   "volume":1.0,
 }
