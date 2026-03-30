@@ -1,5 +1,5 @@
 sprite = spr_blackout
-target_room = noone
+target_room = DayTransition
 condition = noone
 alpha = 0
 start = false

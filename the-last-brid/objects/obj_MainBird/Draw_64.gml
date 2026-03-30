@@ -25,7 +25,7 @@ var Babyboxlength = boxWidth* (global.BBird1/global.BBirdMaxHunger)
 
 draw_sprite_stretched(spr_hunger, 0, bx, by, boxWidth, boxHight)
 draw_sprite_stretched_ext(spr_hunger, 0, bx, by, Babyboxlength, boxHight, c_aqua, 0.6)
-draw_text(bx + boxWidth/2, by + boxHight/2, "Baby1")
+draw_text(bx + boxWidth/2, by + boxHight/2, "Baby")
 }
 //虫子数量显示
 var wx = 1366 + 16

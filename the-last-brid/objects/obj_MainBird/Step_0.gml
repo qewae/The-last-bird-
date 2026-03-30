@@ -1,7 +1,13 @@
 //开始起飞
 if global.start = false and keyboard_check(vk_space)
 {
+	if SpaceBarCD == false
+	{
+	SpaceBarCD = true
 	audio_play_sound(snd__buttonClick, 0, false)
+	alarm_set(3,15)
+	}
+	
 	if global.SpaceT == true
 	{
 		global.SpaceT = false	
@@ -19,7 +25,15 @@ Movement()
 y += yspd
 x += xspd
 
-
+//空气墙
+if place_meeting(x + xspd,y,obj_wall) == true
+{
+ xspd = 0
+}
+if place_meeting(x,y + yspd,obj_wall) == true
+{
+// yspd = 0
+}
 
 //转场
 if trans = true
@@ -66,32 +80,27 @@ else
 }
 
 
-if collision_circle(x,y,64, obj_Tree,false,false)
+if collision_circle(x,y,64, obj_Tree,false,false) and keyboard_check(ord("F"))
 {
 	if FkeyCD == false
 	{
 		FkeyCD = true
-		audio_play_sound(snd_WormPicking,0,false)
+		audio_play_sound(snd__buttonClick,0,false)
 		alarm_set(4,10)
 	}
-	if global.YT == true and keyboard_check(ord("F"))
+	if global.YT == true 
 	{
 	global.YT = false	
 	}
 }
 if collision_circle(x,y,64, obj_nest,false,false) and keyboard_check(ord("F"))
 {
-	if SpaceBarCD == false
-	{
-	SpaceBarCD = true
-	audio_play_sound(snd__buttonClick, 0, false)
-	alarm_set(3,15)
-	}
+	
 if global.day == 1 
 {
 	if global.DEnd == true
 	{
-	global.day += 1
+	
 	global.time = 1
 	StopMoving(fly)
 	global.SY = false
@@ -104,7 +113,7 @@ if global.day == 1
 }
 else
 {
-	global.day += 1
+	
 	global.time = 1
 	StopMoving(fly)
 	global.SY = false
