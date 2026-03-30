@@ -28,11 +28,16 @@ x += xspd
 //空气墙
 if place_meeting(x + xspd,y,obj_wall) == true
 {
- xspd = 0
+ x -= xspd
 }
-if place_meeting(x,y + yspd,obj_wall) == true
+if place_meeting(x,y + 7.5,obj_wall) == true
 {
-// yspd = 0
+ y -= 7.5
+}
+
+if place_meeting(x,y - 7.5,obj_wall) == true
+{
+ y += 7.5
 }
 
 //转场
