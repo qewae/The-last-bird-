@@ -1,3 +1,4 @@
+global.time = 0
 
 if room = WormPicking
 {
