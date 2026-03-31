@@ -1,4 +1,4 @@
-sprite = spr_blackout
+sprite = spr_TransitionScreen
 target_room = GameEnd_Final
 condition = noone
 alpha = 0

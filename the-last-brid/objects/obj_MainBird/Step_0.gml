@@ -66,11 +66,11 @@ if room = Forest
 	
 	
 	
-if xspd == 7.5
+if xspd > 0
 {
 	sprite_index = spr_MainBird_right
 }
-if xspd == -7.5
+if xspd < 0
 {
 	sprite_index = spr_MainBird_left
 }

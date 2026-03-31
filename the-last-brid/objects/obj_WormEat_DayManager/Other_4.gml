@@ -30,7 +30,7 @@ if room = WormPicking
 }
 if global.day == 1 or global.day == 2
 {
-	global.TreeNum = 6
+	global.TreeNum = 6 
 }
 if global.day > 2
 {

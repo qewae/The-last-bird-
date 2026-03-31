@@ -9,7 +9,7 @@ if global.WormEaten = global.WormSpawn
 	global.time += 1
 }
 //一天时间
-if global.time >= 6
+if global.time == global.TreeNum + 1
 {
 	global.DEnd = true
 	
