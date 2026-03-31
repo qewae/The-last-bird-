@@ -6,12 +6,12 @@ global.WormSpawn = 5
 global.WormSpawnVar = 4
 //饥饿机制
 global.Max_Hunger = 16
-global.Hunger = 1
+global.Hunger = 5
 //虫子储存机制
 global.WormCount = 0
 
 //天数机制
-global.time = 5
+global.time = 1
 global.DEnd = false
 global.day = 1
 global.TreeNum = 6

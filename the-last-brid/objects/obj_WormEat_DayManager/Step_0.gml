@@ -21,15 +21,8 @@ DayWormCount(5,2)
 DayWormCount(6,1)
 global.WormSpawnVar = global.WormMax - 1
 
-
-//饥饿条判定
+//饥饿条限制
 if global.Hunger > global.Max_Hunger
 {
 	global.Hunger = global.Max_Hunger
-}
-if global.Hunger < 1
-{
-	global.Hunger = 1
-	room_goto(GameEnd_Starve)
-	
 }
