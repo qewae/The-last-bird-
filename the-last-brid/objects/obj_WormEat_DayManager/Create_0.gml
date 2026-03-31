@@ -13,7 +13,7 @@ global.WormCount = 0
 //天数机制
 global.time = 1
 global.DEnd = false
-global.day = 7
+global.day = 1
 global.TreeNum = 6
 global.transition_Day = false
 //给每个树单独计算是否能交互（availability)
