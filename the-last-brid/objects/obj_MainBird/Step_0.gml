@@ -100,13 +100,13 @@ if collision_circle(x,y,64, obj_Tree,false,false) and keyboard_check(ord("F"))
 }
 if collision_circle(x,y,64, obj_nest,false,false) and keyboard_check(ord("F"))
 {
-	
+	//时间重置
 if global.day == 1 
 {
 	if global.DEnd == true
 	{
 	
-	global.time = 1
+	global.time = 0
 	StopMoving(fly)
 	global.SY = false
 	global.transition_Day = true
@@ -119,7 +119,7 @@ if global.day == 1
 else
 {
 	
-	global.time = 1
+	global.time = 0
 	StopMoving(fly)
 	global.SY = false
 	global.transition_Day = true

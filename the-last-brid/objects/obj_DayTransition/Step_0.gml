@@ -20,7 +20,7 @@ if CloseTrans == true
 	{
 		//一天结算
 		global.transition_Day = false
-		global.Hunger -= 8
+		global.Hunger -= 5
 		global.BBird1 -= 3
 		global.TreeExplode = false
 		AllTavlTrue()
