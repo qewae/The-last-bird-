@@ -37,3 +37,12 @@ if global.day > 2
 	global.TreeNum = 8 - global.day
 }
 
+//baby kill
+//if room = Forest
+//{
+//	if global.BBird1 < 0
+//	{
+//		room_goto(GameEnd_Final)
+//	}
+//}
+

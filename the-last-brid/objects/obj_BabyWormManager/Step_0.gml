@@ -1,1 +1,1 @@
-//if global.BBird1 > 1
+//if global.BBird1 > glo

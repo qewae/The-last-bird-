@@ -25,10 +25,9 @@ if CloseTrans == true
 		global.TreeExplode = false
 		AllTavlTrue()
 		//
-		if global.Hunger > 0
-		{
-		room_goto(target_room)
-		}
+		
+		room_goto(Forest)
+		
 	}
 	else
 	{

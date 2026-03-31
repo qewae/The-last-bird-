@@ -1,1 +1,0 @@
-ReversePathSprite(spr_racoonWalk_Right, spr_racoonWalk_Left)
