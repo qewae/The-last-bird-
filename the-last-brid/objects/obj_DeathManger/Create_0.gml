@@ -1,0 +1,1 @@
+global.deathtoom1=false;
