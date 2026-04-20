@@ -1,1 +1,1 @@
-start = true
+room_goto(Menu)

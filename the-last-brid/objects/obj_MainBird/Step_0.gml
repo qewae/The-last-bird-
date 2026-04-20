@@ -134,6 +134,7 @@ else
 
 
 //声音
+if room = Forest
 if xspd !=0 
 {
 	if WingCD == false

@@ -28,12 +28,14 @@ draw_sprite_stretched_ext(spr_hunger, 0, bx, by, Babyboxlength, boxHight, c_aqua
 draw_text(bx + boxWidth/2, by + boxHight/2, "Baby")
 }
 //虫子数量显示
+if room = Forest or room = WormFeeding
+{
 var wx = 1366 + 16
 var wy = 0 + dy
 draw_sprite(spr_worm, 0, wx-200, wy)
 draw_text(wx-120,wy+30,"X")
 draw_text(wx-90,wy+30,global.WormCount)
-
+}
 
 
 
