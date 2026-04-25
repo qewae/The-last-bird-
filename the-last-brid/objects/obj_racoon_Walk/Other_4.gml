@@ -13,3 +13,4 @@ if death == false
 
 ReversePath(target_path,3)
 }
+alarm_set(1,5)

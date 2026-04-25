@@ -1,7 +1,7 @@
 
 
 
-if global.transition_Day == true
+if variable_global_get(target_condition) == true
 {
 	alpha += 0.01
 }

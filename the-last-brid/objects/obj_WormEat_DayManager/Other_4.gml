@@ -48,13 +48,21 @@ if global.day > 2
 //}
 
 //饥饿条判定
-if global.Hunger > global.Max_Hunger
+if room = Forest
 {
-	global.Hunger = global.Max_Hunger
-}
-if global.Hunger < 1
-{
-	global.Hunger = 1
-	room_goto(GameEnd_Starve)
+	if global.Hunger > global.Max_Hunger
+	{
+		global.Hunger = global.Max_Hunger
+	}
+	if global.Hunger < 1
+	{
+		global.Hunger = 1
+		room_goto(GameEnd_Starve)
 	
+	}else if global.BBird1 < 0
+	{
+		global.BBird1 = 0
+		room_goto(GameEnd
+		
+	}
 }

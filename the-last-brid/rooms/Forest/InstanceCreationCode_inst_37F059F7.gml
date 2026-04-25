@@ -1,3 +1,3 @@
 sprite = spr_TransitionScreen
-condition = "global.transition"
+target_condition = "transition_Day"
 target_room = WormFeeding
