@@ -61,8 +61,7 @@ if room = Forest
 	
 	}else if global.BBird1 < 0
 	{
-		global.BBird1 = 0
-		room_goto(GameEnd
+		global.BBirdDeath = true
 		
 	}
 }

@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"WormFeeding",
-    "path":"folders/Sprites/WormFeeding.yy",
+    "name":"WormFeedingBabyWorm",
+    "path":"folders/Sprites/WormFeedingBabyWorm.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
