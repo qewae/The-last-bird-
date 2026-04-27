@@ -37,6 +37,7 @@ if place_meeting(x,y + 7.5,obj_wall) == true
  y -= 7.5
 }
 
+
 if place_meeting(x,y - 7.5,obj_wall) == true
 {
  y += 7.5
