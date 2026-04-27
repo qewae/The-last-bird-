@@ -26,3 +26,5 @@ else
 	BabyBirdName = "Dead"
 }
 
+global.start = false
+trans = false
