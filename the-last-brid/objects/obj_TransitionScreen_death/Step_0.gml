@@ -1,7 +1,7 @@
 
 
 
-if global.death == true
+if global.death = true
 {
 	alpha += 0.01
 }

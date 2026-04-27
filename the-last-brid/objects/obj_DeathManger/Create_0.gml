@@ -1,1 +1,1 @@
-global.death=false;
+global.death = false
