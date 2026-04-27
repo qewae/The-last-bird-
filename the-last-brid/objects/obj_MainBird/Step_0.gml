@@ -1,4 +1,6 @@
 //开始起飞
+if room = Forest
+{
 if global.start = false and keyboard_check(vk_space)
 {
 	if SpaceBarCD == false
@@ -143,6 +145,7 @@ if xspd !=0
 	audio_play_sound(snd_WingFlap, 0, false)
 	alarm_set(2,30*2.6)
 	}
+}
 }
 
 
