@@ -1,9 +1,4 @@
-TransitionPage(2, spr_DayTransition2)
-TransitionPage(3, spr_DayTransition3)
-TransitionPage(4, spr_DayTransition4)
-TransitionPage(5, spr_DayTransition5)
-TransitionPage(6, spr_DayTransition6)
-TransitionPage(7, spr_DayTransition7)
+
 
 if global.transition_Day == true
 {
