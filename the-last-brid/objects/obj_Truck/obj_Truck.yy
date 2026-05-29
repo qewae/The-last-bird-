@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Truck",
+    "path":"sprites/spr_Truck/spr_Truck.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

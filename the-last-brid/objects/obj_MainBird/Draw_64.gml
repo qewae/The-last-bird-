@@ -66,8 +66,8 @@ if collision_circle(x,y,32, obj_nest,false,false) and global.DEnd == true and gl
 
 //时间条
 if room = Forest{
-draw_text(dx + 64, dy + 128, "Time:")
-draw_text(dx + 128, dy + 128, global.time)
+//draw_text(dx + 64, dy + 128, "Time:")
+draw_text(dx + 128, dy + 128, global.timeDisplay)
 }
 
 draw_set_font(MiddleScreen)

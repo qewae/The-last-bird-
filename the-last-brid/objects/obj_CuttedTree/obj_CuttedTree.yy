@@ -6,8 +6,8 @@
   "name":"obj_CuttedTree",
   "overriddenProperties":[],
   "parent":{
-    "name":"WormPicking",
-    "path":"folders/Objects/WormPicking.yy",
+    "name":"BabyWormPicking",
+    "path":"folders/Objects/BabyWormPicking.yy",
   },
   "parentObjectId":null,
   "persistent":false,

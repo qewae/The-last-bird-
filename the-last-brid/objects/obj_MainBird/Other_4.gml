@@ -1,13 +1,13 @@
 xspd = 0
 yspd = 0
 //进入非森林房间隐藏自己
-if room = WormPicking
+if room != Forest
 {
-	sprite_index = spr_blank
+	visible = false
 }
 else
 {
-	sprite_index = spr_MainBird_right
+	visible = true
 }
 
 //出生在上个交互的树

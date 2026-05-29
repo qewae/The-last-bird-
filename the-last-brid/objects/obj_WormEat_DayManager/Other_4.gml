@@ -1,5 +1,5 @@
 
-
+//捡虫子机制
 if room = WormPicking
 {
 	if global.day > 1
@@ -29,6 +29,8 @@ if room = WormPicking
 		}
 	}
 }
+
+//树被砍与天数
 if global.day == 1 or global.day == 2
 {
 	global.TreeNum = 6 
@@ -64,4 +66,34 @@ if room = Forest
 		global.BBirdDeath = true
 		
 	}
+}
+
+//时间计数与显示时间转换
+if global.time = 0
+{
+	global.timeDisplay = "10:00AM"
+}
+if global.time = 1
+{
+	global.timeDisplay = "12:00PM"
+}
+if global.time = 2
+{
+	global.timeDisplay = "2:00PM"
+}
+if global.time = 3
+{
+	global.timeDisplay = "4:00PM"
+}
+if global.time = 4
+{
+	global.timeDisplay = "6:00PM"
+}
+if global.time = 5
+{
+	global.timeDisplay = "8:00PM"
+}
+if global.time = 6
+{
+	global.timeDisplay = "10:PM"
 }

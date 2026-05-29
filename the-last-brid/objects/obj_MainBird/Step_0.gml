@@ -1,4 +1,4 @@
-//开始起飞
+//开始起飞---------------------------------------------------
 if room = Forest
 {
 if global.start = false and keyboard_check(vk_space)
@@ -19,7 +19,7 @@ if global.start = false and keyboard_check(vk_space)
 	yspd = -7.5
 	alarm_set(0,15)
 }
-//起飞后才能动
+//起飞后才能动---------------------------------------------
 if fly = true
 {
 Movement()
@@ -27,7 +27,7 @@ Movement()
 y += yspd
 x += xspd
 
-//空气墙
+//空气墙------------------------------------------------
 if place_meeting(x + xspd,y,obj_wall) == true
 {
  x -= xspd
@@ -43,7 +43,7 @@ if place_meeting(x,y - 7.5,obj_wall) == true
  y += 7.5
 }
 
-//转场
+//转场-----------------------------------------------
 if trans = true
 {
 	yspd += 0.5
@@ -63,12 +63,12 @@ if global.start == false
 	sprite_index = spr_MainBird_stand
 }
 
-//根据方向改画面
+//根据方向改画面------------------------------------------
 if room = Forest
 {
 	
 	
-	
+//移动-------------------------------------------------	
 if xspd > 0
 {
 	sprite_index = spr_MainBird_right
@@ -87,7 +87,7 @@ else
 	sprite_index = spr_blank
 }
 
-
+//进树洞交互------------------------------------------------------
 if collision_circle(x,y,64, obj_Tree,false,false) and keyboard_check(ord("F"))
 {
 	if FkeyCD == false
@@ -103,7 +103,8 @@ if collision_circle(x,y,64, obj_Tree,false,false) and keyboard_check(ord("F"))
 }
 if collision_circle(x,y,64, obj_nest,false,false) and keyboard_check(ord("F"))
 {
-	//时间重置
+	
+//时间重置-------------------------------------------------------
 if global.day == 1 
 {
 	if global.DEnd == true
@@ -136,7 +137,7 @@ else
 
 
 
-//声音
+//声音------------------------------------------------------
 if room = Forest
 if xspd !=0 
 {
@@ -149,8 +150,17 @@ if xspd !=0
 }
 }
 
+//移动消耗饥饿条------------------------------------------
 
-
+if xspd!= 0
+{
+	global.HungerCount += 1
+	if global.HungerCount = 30*25
+	{
+		global.Hunger -= 1
+		global.HungerCount = 0
+	}
+}
 
 
 

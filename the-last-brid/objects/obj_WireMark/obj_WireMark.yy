@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_worm",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_WireMark",
+  "eventList":[],
   "managed":true,
-  "name":"obj_worm",
+  "name":"obj_WireMark",
   "overriddenProperties":[],
   "parent":{
-    "name":"BabyWormPicking",
-    "path":"folders/Objects/BabyWormPicking.yy",
+    "name":"BackGround",
+    "path":"folders/Objects/BackGround.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Worm1",
-    "path":"sprites/spr_Worm1/spr_Worm1.yy",
+    "name":"spr_TireMark1",
+    "path":"sprites/spr_TireMark1/spr_TireMark1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
