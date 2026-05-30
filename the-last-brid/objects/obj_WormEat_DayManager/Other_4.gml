@@ -95,5 +95,5 @@ if global.time = 5
 }
 if global.time = 6
 {
-	global.timeDisplay = "10:PM"
+	global.timeDisplay = "10:00PM"
 }

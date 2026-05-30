@@ -3,11 +3,11 @@ yspd = 0
 //进入非森林房间隐藏自己
 if room != Forest
 {
-	visible = false
+	sprite_index = spr_blank
 }
 else
 {
-	visible = true
+	sprite_index = spr_MainBird_stand
 }
 
 //出生在上个交互的树

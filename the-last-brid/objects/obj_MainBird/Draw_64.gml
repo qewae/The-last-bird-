@@ -14,7 +14,18 @@ if room = Forest or room = WormFeeding
 var boxlength = boxWidth* (global.Hunger/global.Max_Hunger)
 
 draw_sprite_stretched(spr_hunger, 0, dx, dy, boxWidth, boxHight)
-draw_sprite_stretched_ext(spr_hunger, 0, dx, dy, boxlength, boxHight, c_red, 0.6)
+//draw_sprite(spr_HungerBar, 0, dx, dy)
+
+if global.Hunger == global.Max_Hunger
+{
+	 draw_sprite_stretched(spr_hungerAFull, 0, dx, dy, boxlength, boxHight)
+}
+else
+{
+	 draw_sprite_stretched(spr_hungerAmount, 0, dx, dy, boxlength, boxHight)
+}
+
+
 draw_text(dx + boxWidth/2, dy + boxHight/2, "Hunger")
 }
 //幼虫饥饿条
@@ -23,8 +34,8 @@ var bx = 16
 var by = dy + 100
 var Babyboxlength = boxWidth* (global.BBird1/global.BBirdMaxHunger)
 
-draw_sprite_stretched(spr_hunger, 0, bx, by, boxWidth, boxHight)
-draw_sprite_stretched_ext(spr_hunger, 0, bx, by, Babyboxlength, boxHight, c_aqua, 0.6)
+draw_sprite_stretched(spr_hungerAFull, 0, bx, by, boxWidth, boxHight)
+draw_sprite_stretched_ext(spr_hungerAFull, 0, bx, by, Babyboxlength, boxHight, c_aqua, 0.6)
 draw_text(bx + boxWidth/2, by + boxHight/2, BabyBirdName)
 }
 //虫子数量显示
@@ -67,7 +78,8 @@ if collision_circle(x,y,32, obj_nest,false,false) and global.DEnd == true and gl
 //时间条
 if room = Forest{
 //draw_text(dx + 64, dy + 128, "Time:")
-draw_text(dx + 128, dy + 128, global.timeDisplay)
+draw_set_font(MiddleScreen)
+draw_text(dx + 192, dy + 128, global.timeDisplay)
 }
 
 draw_set_font(MiddleScreen)
