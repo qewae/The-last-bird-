@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_WireMark",
+  "%Name":"obj_WoodCutter",
   "eventList":[],
   "managed":true,
-  "name":"obj_WireMark",
+  "name":"obj_WoodCutter",
   "overriddenProperties":[],
   "parent":{
     "name":"BackGround",
     "path":"folders/Objects/BackGround.yy",
   },
-  "parentObjectId":{
-    "name":"obj_WoodPile",
-    "path":"objects/obj_WoodPile/obj_WoodPile.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_TireMark1",
-    "path":"sprites/spr_TireMark1/spr_TireMark1.yy",
+    "name":"spr_WoodCutter",
+    "path":"sprites/spr_WoodCutter/spr_WoodCutter.yy",
   },
   "spriteMaskId":null,
   "visible":true,

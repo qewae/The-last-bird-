@@ -1,2 +1,2 @@
-OccureDay = 4
-VanishDay = noone
+OccureDay = 3
+VanishDay = 5
