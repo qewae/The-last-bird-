@@ -22,7 +22,7 @@ global.time = 0 //时间记得从0开始
 global.timeDisplay = "10:00AM"
 
 global.DEnd = false
-global.day = 1
+global.day = 7
 global.TreeNum = 6
 global.transition_Day = false
 
