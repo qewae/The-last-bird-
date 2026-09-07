@@ -66,6 +66,8 @@
     {"id":{"name":"obj_BabyBird","path":"objects/obj_BabyBird/obj_BabyBird.yy",},},
     {"id":{"name":"obj_BabyDeathTrans","path":"objects/obj_BabyDeathTrans/obj_BabyDeathTrans.yy",},},
     {"id":{"name":"obj_BabyWormManager","path":"objects/obj_BabyWormManager/obj_BabyWormManager.yy",},},
+    {"id":{"name":"obj_Background_Back","path":"objects/obj_Background_Back/obj_Background_Back.yy",},},
+    {"id":{"name":"obj_Background_Mid","path":"objects/obj_Background_Mid/obj_Background_Mid.yy",},},
     {"id":{"name":"obj_BackGroundMovement","path":"objects/obj_BackGroundMovement/obj_BackGroundMovement.yy",},},
     {"id":{"name":"obj_blackout","path":"objects/obj_blackout/obj_blackout.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},

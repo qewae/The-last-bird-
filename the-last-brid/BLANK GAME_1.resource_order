@@ -41,6 +41,8 @@
     {"name":"MiddleScreen","order":1,"path":"fonts/MiddleScreen/MiddleScreen.yy",},
     {"name":"obj_BabyDeathTrans","order":5,"path":"objects/obj_BabyDeathTrans/obj_BabyDeathTrans.yy",},
     {"name":"obj_BabyWormManager","order":1,"path":"objects/obj_BabyWormManager/obj_BabyWormManager.yy",},
+    {"name":"obj_Background_Back","order":9,"path":"objects/obj_Background_Back/obj_Background_Back.yy",},
+    {"name":"obj_Background_Mid","order":8,"path":"objects/obj_Background_Mid/obj_Background_Mid.yy",},
     {"name":"obj_blackout","order":2,"path":"objects/obj_blackout/obj_blackout.yy",},
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_cursor","order":2,"path":"objects/obj_cursor/obj_cursor.yy",},
