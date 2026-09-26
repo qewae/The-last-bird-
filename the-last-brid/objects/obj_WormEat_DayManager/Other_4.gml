@@ -75,19 +75,19 @@ if global.time = 0
 }
 if global.time = 1
 {
-	global.timeDisplay = "1:00PM"
+	global.timeDisplay = "12:00PM"
 }
 if global.time = 2
 {
-	global.timeDisplay = "4:00PM"
+	global.timeDisplay = "2:00PM"
 }
 if global.time = 3
 {
-	global.timeDisplay = "7:00PM"
+	global.timeDisplay = "4:00PM"
 }
 if global.time = 4
 {
-	global.timeDisplay = "10:00PM"
+	global.timeDisplay = "6:00PM"
 }
 if global.time = 5
 {

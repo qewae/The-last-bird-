@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ForestBack1",
-    "path":"sprites/spr_ForestBack1/spr_ForestBack1.yy",
+    "name":"spr_ForestMid",
+    "path":"sprites/spr_ForestMid/spr_ForestMid.yy",
   },
   "spriteMaskId":null,
   "visible":true,
