@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ForestMid",
-    "path":"sprites/spr_ForestMid/spr_ForestMid.yy",
+    "name":"spr_ForestBack",
+    "path":"sprites/spr_ForestBack/spr_ForestBack.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Tree1",
-    "path":"sprites/spr_Tree1/spr_Tree1.yy",
+    "name":"spr_Tree1D",
+    "path":"sprites/spr_Tree1D/spr_Tree1D.yy",
   },
   "spriteMaskId":null,
   "visible":true,

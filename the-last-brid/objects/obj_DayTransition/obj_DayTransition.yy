@@ -12,8 +12,8 @@
   "name":"obj_DayTransition",
   "overriddenProperties":[],
   "parent":{
-    "name":"Transition",
-    "path":"folders/Objects/Transition.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
