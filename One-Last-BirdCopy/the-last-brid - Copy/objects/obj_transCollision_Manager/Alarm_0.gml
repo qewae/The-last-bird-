@@ -1,0 +1,1 @@
+room_goto(GameEnd_Final)

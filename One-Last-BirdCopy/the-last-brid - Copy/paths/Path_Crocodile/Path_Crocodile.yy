@@ -1,0 +1,22 @@
+{
+  "$GMPath":"",
+  "%Name":"Path_Crocodile",
+  "closed":false,
+  "kind":1,
+  "name":"Path_Crocodile",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":5004.0,"y":992.0,},
+    {"speed":100.0,"x":5132.0,"y":992.0,},
+    {"speed":100.0,"x":5708.0,"y":992.0,},
+    {"speed":100.0,"x":6636.0,"y":992.0,},
+    {"speed":100.0,"x":7980.0,"y":992.0,},
+    {"speed":100.0,"x":8748.0,"y":1152.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

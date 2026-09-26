@@ -1,0 +1,68 @@
+0000000000000000000000000000000000000000 f2da97ec9e056095dd55f20cd4eacc98f0775f32 bobbyzhang133-star <bobbyzhang133@gmail.com> 1770777422 -0800	branch: Created from origin/main
+f2da97ec9e056095dd55f20cd4eacc98f0775f32 f2da97ec9e056095dd55f20cd4eacc98f0775f32 bobbyzhang133-star <bobbyzhang133@gmail.com> 1770777422 -0800	checkout: moving from main to main
+f2da97ec9e056095dd55f20cd4eacc98f0775f32 e4c6840f8287c8d24b2a8ba2273e4c71f518bbc7 bobbyzhang133-star <bobbyzhang133@gmail.com> 1770780030 -0800	pull --ff --recurse-submodules --progress origin: Fast-forward
+e4c6840f8287c8d24b2a8ba2273e4c71f518bbc7 17b8b35b532cf94e10108adea03b275b3e90a152 bobbyzhang133-star <bobbyzhang133@gmail.com> 1770782442 -0800	commit: Worm Picking
+17b8b35b532cf94e10108adea03b275b3e90a152 20c877c20a467ee002204ccd030057afe82a334b bobbyzhang133-star <bobbyzhang133@gmail.com> 1770874239 -0800	commit: 吃虫子+返回原界面
+20c877c20a467ee002204ccd030057afe82a334b d596b3393eee7f17427604f1c02a67556b8fb717 bobbyzhang133-star <bobbyzhang133@gmail.com> 1771897640 -0800	commit: Organized File
+d596b3393eee7f17427604f1c02a67556b8fb717 16db7fb3f79ef24cfa78f511667081a5d8e8468d bobbyzhang133-star <bobbyzhang133@gmail.com> 1771910584 -0800	commit: Bird Animation
+16db7fb3f79ef24cfa78f511667081a5d8e8468d ed93525378602b31c09f6c29a2f72acdf78182d1 bobbyzhang133-star <bobbyzhang133@gmail.com> 1771912251 -0800	commit: Bird Movement
+ed93525378602b31c09f6c29a2f72acdf78182d1 12b1cffc64909ea195bb78b2a37917dc15b96590 bobbyzhang133-star <bobbyzhang133@gmail.com> 1772084431 -0800	commit: Tree Anchoring
+12b1cffc64909ea195bb78b2a37917dc15b96590 15c94d9ebc016c43c6f86aa83580e0f1cb6d9c69 bobbyzhang133-star <bobbyzhang133@gmail.com> 1772311628 -0800	commit: 树锚点最终版
+15c94d9ebc016c43c6f86aa83580e0f1cb6d9c69 5281ca21bad6df71b8e8a2bfe3685cd880a06e03 bobbyzhang133-star <bobbyzhang133@gmail.com> 1772521519 -0800	commit: 妈的搞定了
+5281ca21bad6df71b8e8a2bfe3685cd880a06e03 b22f1fa828581a9118700ded1fd81a8ef704b3e1 bobbyzhang133-star <bobbyzhang133@gmail.com> 1772606633 -0800	commit: 加了天数
+b22f1fa828581a9118700ded1fd81a8ef704b3e1 6705059d4a6c3b20934346c6cfd5910cb3fc58be bobbyzhang133-star <bobbyzhang133@gmail.com> 1772775514 -0800	commit: 加了专场系统
+6705059d4a6c3b20934346c6cfd5910cb3fc58be b76198ba151ef0c612ecafa1ce65a089259449db bobbyzhang133-star <bobbyzhang133@gmail.com> 1772945483 -0800	commit: 菜单
+b76198ba151ef0c612ecafa1ce65a089259449db b386cee054f39d90a21c658ef41905cb1c841432 bobbyzhang133-star <bobbyzhang133@gmail.com> 1772945823 -0800	commit: 加了树
+b386cee054f39d90a21c658ef41905cb1c841432 c8e636301f44a355766c3d9b04bb9095a8fd9872 bobbyzhang133-star <bobbyzhang133@gmail.com> 1772946438 -0800	commit: chicken
+c8e636301f44a355766c3d9b04bb9095a8fd9872 5bbb4c7b5fd0a57927a52e543f6d579c2a3cb23f bobbyzhang133-star <bobbyzhang133@gmail.com> 1772999125 -0700	commit: 加随即系统
+5bbb4c7b5fd0a57927a52e543f6d579c2a3cb23f 4a6c7247e8bf033bb7f424bbff0ab3b97b41698a bobbyzhang133-star <bobbyzhang133@gmail.com> 1773026803 -0700	commit: 加了背景
+4a6c7247e8bf033bb7f424bbff0ab3b97b41698a a58c6df0209f4ad939efca53de78ab7cca7c7968 bobbyzhang133-star <bobbyzhang133@gmail.com> 1773206682 -0700	commit: 背景
+a58c6df0209f4ad939efca53de78ab7cca7c7968 183832fde9f42a72d2372db30259778312a1b517 bobbyzhang133-star <bobbyzhang133@gmail.com> 1773288362 -0700	commit: 整改吃虫子机制
+183832fde9f42a72d2372db30259778312a1b517 6c67718740c6a131f327128bb33d2fba65cc5ab6 bobbyzhang133-star <bobbyzhang133@gmail.com> 1773437230 -0700	commit: 喂鸟系统
+6c67718740c6a131f327128bb33d2fba65cc5ab6 14e7897df5f7691c0479ba196cce4dcec0e9f1df bobbyzhang133-star <bobbyzhang133@gmail.com> 1773506719 -0700	commit: 加了背景
+14e7897df5f7691c0479ba196cce4dcec0e9f1df c599128021da8aea9f6c6a71fc1e1f22719e6f2c bobbyzhang133-star <bobbyzhang133@gmail.com> 1773521977 -0700	commit: 天数系统
+c599128021da8aea9f6c6a71fc1e1f22719e6f2c 4abef5b36537286ad91d35405334ea5856c05e58 bobbyzhang133-star <bobbyzhang133@gmail.com> 1773808667 -0700	commit: 加了点新手教程
+4abef5b36537286ad91d35405334ea5856c05e58 9860887587ad5c925b8aa3a25a0ad71431f6f641 bobbyzhang133-star <bobbyzhang133@gmail.com> 1773892646 -0700	commit: 加了新手教程
+9860887587ad5c925b8aa3a25a0ad71431f6f641 83c946cbdc18aefbf9461ffa9a0451477736b232 bobbyzhang133-star <bobbyzhang133@gmail.com> 1773981792 -0700	commit: 树被砍
+83c946cbdc18aefbf9461ffa9a0451477736b232 d646b8261553b5447fd2f4b773a807f8cda1eb71 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774069631 -0700	commit: 随机虫子&动物AI
+d646b8261553b5447fd2f4b773a807f8cda1eb71 d0b07f458c440187bb90a3734241512b89d441a5 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774210059 -0700	commit: 改了窗口
+d0b07f458c440187bb90a3734241512b89d441a5 cbfe6a2f8cdabb606f35bfb1d654639ae8a25253 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774221542 -0700	commit: 加了砍出和树洞
+cbfe6a2f8cdabb606f35bfb1d654639ae8a25253 55dcda9c9ca7aba3c1db71cd4d1106c9595570de bobbyzhang133-star <bobbyzhang133@gmail.com> 1774417890 -0700	commit: 鸡鸡
+55dcda9c9ca7aba3c1db71cd4d1106c9595570de add81d5de4a01c7fbcf7a1a323dd00684ea19117 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774501575 -0700	commit: 老家爆炸
+add81d5de4a01c7fbcf7a1a323dd00684ea19117 1c48edb0f8f58ebad65e83f4b1e7876540c2b124 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774587882 -0700	commit: 死亡结局
+1c48edb0f8f58ebad65e83f4b1e7876540c2b124 6a0dea1dfa2da75b8760b813b2b7b47f40bb55d5 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774675415 -0700	commit: 燃鸡了
+6a0dea1dfa2da75b8760b813b2b7b47f40bb55d5 50efc9799c5cbf2d74830a5a53b98af6243aa138 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774761705 -0700	commit: 鸡鸡
+50efc9799c5cbf2d74830a5a53b98af6243aa138 1f66af492af58e54038de415e839849555eaf791 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774765462 -0700	commit: 鸡鸡bond
+1f66af492af58e54038de415e839849555eaf791 c61092e394c4a30535291485712b3c346ed376e8 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774802901 -0700	commit: Update options_operagx.yy
+c61092e394c4a30535291485712b3c346ed376e8 2e6e064b5a185ecc06c36ebe5aed8aea199a85a5 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774846392 -0700	commit: 加了点音效
+2e6e064b5a185ecc06c36ebe5aed8aea199a85a5 667117c103317dacfb4220cc3e32d6f9e28caa7b bobbyzhang133-star <bobbyzhang133@gmail.com> 1774848302 -0700	commit: 修改Bug
+667117c103317dacfb4220cc3e32d6f9e28caa7b 5823e9cc085bc59d27c5e3cf021eee60987b7a7c bobbyzhang133-star <bobbyzhang133@gmail.com> 1774849200 -0700	commit: 鸡鸡
+5823e9cc085bc59d27c5e3cf021eee60987b7a7c 3785b09fbb9ea8cc7d735f48d55855551b3f866b bobbyzhang133-star <bobbyzhang133@gmail.com> 1774930226 -0700	commit: 加了移速
+3785b09fbb9ea8cc7d735f48d55855551b3f866b d7f378e4ed4c4be6a573a95ce4f1771a31aea8ea bobbyzhang133-star <bobbyzhang133@gmail.com> 1774930461 -0700	commit: 鸡鸡爆
+d7f378e4ed4c4be6a573a95ce4f1771a31aea8ea 385c4e6f5ecd4677c7ec968e4700194a8e7bcb1a bobbyzhang133-star <bobbyzhang133@gmail.com> 1774930764 -0700	commit: 鸡鸡
+385c4e6f5ecd4677c7ec968e4700194a8e7bcb1a 7d63b0bca1d332fab32517378c5bbc5290206383 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774931585 -0700	commit: 爆炸鸡
+7d63b0bca1d332fab32517378c5bbc5290206383 dc1c9e460eb5495f154340d83e17ba610ca9aa96 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774939012 -0700	commit: chicken
+dc1c9e460eb5495f154340d83e17ba610ca9aa96 7afe211cc544fc5ed957c139af6cb39022354504 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774969901 -0700	commit: 鸡
+7afe211cc544fc5ed957c139af6cb39022354504 b581dc34613a6b9bcbe2de1d9144342b7e37e068 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774996474 -0700	commit: 鸡鸡
+b581dc34613a6b9bcbe2de1d9144342b7e37e068 670549534220312ef86eb217ec3bb52d901d3595 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774996777 -0700	commit: 鸡
+670549534220312ef86eb217ec3bb52d901d3595 cb28348757ac70e607b7d22060991ac966a7de43 bobbyzhang133-star <bobbyzhang133@gmail.com> 1774998355 -0700	commit: JIJI
+cb28348757ac70e607b7d22060991ac966a7de43 f3532ee29c8771d8b6d70ba4f73120daf7f7dc28 bobbyzhang133-star <bobbyzhang133@gmail.com> 1775017021 -0700	pull --ff --recurse-submodules --progress origin: Fast-forward
+f3532ee29c8771d8b6d70ba4f73120daf7f7dc28 151c9b040242504bdd1e887fefbac27d0428db2c bobbyzhang133-star <bobbyzhang133@gmail.com> 1775697074 +0800	pull --ff --recurse-submodules --progress origin: Fast-forward
+151c9b040242504bdd1e887fefbac27d0428db2c 5ff09adc74625e67a36c17c6b71fb8c89155f339 bobbyzhang133-star <bobbyzhang133@gmail.com> 1776393047 -0700	commit: 叽叽叽叽
+5ff09adc74625e67a36c17c6b71fb8c89155f339 49c253c47e41a3a40da6ac220378a091dc0d7add bobbyzhang133-star <bobbyzhang133@gmail.com> 1776402638 -0700	commit: 即可
+49c253c47e41a3a40da6ac220378a091dc0d7add 6cea384f73dffb4190e175e6e28a9b6afacf3456 bobbyzhang133-star <bobbyzhang133@gmail.com> 1776654489 -0700	commit: 改了结局Bug,优化了动物位置
+6cea384f73dffb4190e175e6e28a9b6afacf3456 f04207c6b2695481542996c681b42f50d25f67be bobbyzhang133-star <bobbyzhang133@gmail.com> 1776655691 -0700	commit: 鸡
+f04207c6b2695481542996c681b42f50d25f67be 6bf3e08d0565b53b983d516b6b0a9f2208ed32d2 bobbyzhang133-star <bobbyzhang133@gmail.com> 1776663970 -0700	commit: Update Create_0.gml
+6bf3e08d0565b53b983d516b6b0a9f2208ed32d2 9635f13b5c066504d2ea630ed025415d95311aa5 bobbyzhang133-star <bobbyzhang133@gmail.com> 1777096858 -0700	commit: 加了小鸡死亡
+9635f13b5c066504d2ea630ed025415d95311aa5 bd6dc161c012953df6d0d2ae4fc05dc4b2668161 bobbyzhang133-star <bobbyzhang133@gmail.com> 1777185411 -0700	commit: 更新完整的小鸟死亡
+bd6dc161c012953df6d0d2ae4fc05dc4b2668161 7731516f12ac18a758fdc3cc0cdeacec44c9cd54 bobbyzhang133-star <bobbyzhang133@gmail.com> 1777257523 -0700	commit: 跟新小鸟喂食
+7731516f12ac18a758fdc3cc0cdeacec44c9cd54 0e1e1fb6c278dbf7913b797555fe197826a2d351 bobbyzhang133-star <bobbyzhang133@gmail.com> 1777258085 -0700	commit: Update Step_0.gml
+0e1e1fb6c278dbf7913b797555fe197826a2d351 a49558098f50bcdbba03c1c6007ab7371d7c5e82 bobbyzhang133-star <bobbyzhang133@gmail.com> 1777258376 -0700	commit: Update Other_4.gml
+a49558098f50bcdbba03c1c6007ab7371d7c5e82 b6ba08c83ae2c26f9942ec119abf13238cc2ce60 bobbyzhang133-star <bobbyzhang133@gmail.com> 1777268617 -0700	commit: Update Step_0.gml
+b6ba08c83ae2c26f9942ec119abf13238cc2ce60 b9e00abf3b45f42f7bf5ce9df481202568663254 bobbyzhang133-star <bobbyzhang133@gmail.com> 1779579374 -0700	commit: 加了转场声音和一下新的变化
+b9e00abf3b45f42f7bf5ce9df481202568663254 b2952deee7448e58f10fe4f5618cb01d3044431d bobbyzhang133-star <bobbyzhang133@gmail.com> 1780097400 -0700	commit: 加了时间和移动饥饿系统
+b2952deee7448e58f10fe4f5618cb01d3044431d 84310d81e8d4f6c0ea2cdfbaf77fd237c4588d75 bobbyzhang133-star <bobbyzhang133@gmail.com> 1780101143 -0700	commit: 更新了UI
+84310d81e8d4f6c0ea2cdfbaf77fd237c4588d75 06b13bf4498bc1d183360b88cc9451900b86b8c1 bobbyzhang133-star <bobbyzhang133@gmail.com> 1782168900 -0400	commit: 加了伐木工
+06b13bf4498bc1d183360b88cc9451900b86b8c1 3ac1f07edb82b3f2e1db0f967911e9d44cd17eb9 bobbyzhang133-star <bobbyzhang133@gmail.com> 1787877739 -0700	commit: Update Create_0.gml
+3ac1f07edb82b3f2e1db0f967911e9d44cd17eb9 b22837d88a28e2c2dbc680bb6972fd8828673ef2 bobbyzhang133-star <bobbyzhang133@gmail.com> 1788750712 -0700	commit: 加了不同图层的背景
+b22837d88a28e2c2dbc680bb6972fd8828673ef2 f7bfb5b35188bc1bcf124953c2efb2ca146648c3 bobbyzhang133-star <bobbyzhang133@gmail.com> 1789792048 -0700	commit: 背景分布

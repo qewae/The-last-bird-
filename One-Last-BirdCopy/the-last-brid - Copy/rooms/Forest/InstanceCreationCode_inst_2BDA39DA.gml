@@ -1,0 +1,1 @@
+DestroyDay = tree3.DestroyDay
