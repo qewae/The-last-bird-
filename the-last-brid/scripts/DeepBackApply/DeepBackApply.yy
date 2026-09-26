@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"DeepBackApply",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DeepBackApply",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

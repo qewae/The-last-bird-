@@ -71,29 +71,29 @@ if room = Forest
 //时间计数与显示时间转换
 if global.time = 0
 {
-	global.timeDisplay = "10:00AM"
+	global.timeDisplay = "12:00PM"
 }
 if global.time = 1
 {
-	global.timeDisplay = "12:00PM"
+	global.timeDisplay = "2:00PM"
 }
 if global.time = 2
 {
-	global.timeDisplay = "2:00PM"
+	global.timeDisplay = "4:00PM"
 }
 if global.time = 3
 {
-	global.timeDisplay = "4:00PM"
+	global.timeDisplay = "6:00PM"
 }
 if global.time = 4
 {
-	global.timeDisplay = "6:00PM"
+	global.timeDisplay = "8:00PM"
 }
 if global.time = 5
 {
-	global.timeDisplay = "8:00PM"
+	global.timeDisplay = "10:00PM"
 }
 if global.time = 6
 {
-	global.timeDisplay = "10:00PM"
+	global.timeDisplay = "12:00AM"
 }
